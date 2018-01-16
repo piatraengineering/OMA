@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-script minSpecVersion="1.000000" authoringTool="com.apple.PackageMaker" authoringToolVersion="3.0.1" authoringToolBuild="172">
+    <title>QuickLook for OMA</title>
+    <options customize="never" allow-external-scripts="no" rootVolumeOnly="true"/>
+    <installation-check script="pm_install_check();"/>
+    <script>function pm_install_check() {
+  if(!(system.version.ProductVersion >= '10.5.0')) {
+    my.result.title = 'Time to update...';
+    my.result.message = 'Sorry, QuickLook is only available on MacOS 10.5 or greater.';
+    my.result.type = 'Fatal';
+    return false;
+  }
+  return true;
+}
+</script>
+    <background file="background" alignment="bottomleft" scaling="proportional"/>
+    <readme language="en" mime-type="text/rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf949
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 \
+\
+This installer puts the OMA QuickLook plugin into the folder "/Library/QuickLook" on the startup disk.}]]></readme>
+    <conclusion language="en" mime-type="text/rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf949
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 \
+\
+If you ever want to remove the plugin, simply move the file "omalook3.qlgenerator" from the "/Library/QuickLook" folder to the trash.}]]></conclusion>
+    <choices-outline>
+        <line choice="choice0"/>
+    </choices-outline>
+    <choice id="choice0" title="omalook3">
+        <pkg-ref id="org.oma-x.quicklookForOma.omalook3.pkg"/>
+    </choice>
+    <pkg-ref id="org.oma-x.quicklookForOma.omalook3.pkg" installKBytes="68" version="1">file:./Contents/Packages/omalook3.pkg</pkg-ref>
+</installer-script>

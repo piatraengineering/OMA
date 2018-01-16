@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>dat</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>omad</string>
+			<key>CFBundleTypeName</key>
+			<string>OMA Data File</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>ODTA</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>jpg</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>OMA jpg</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>fts</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>OMA fits file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>fit</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>OMA fits file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>nef</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>OMA raw file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>tif</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>OMA tiff file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>tiff</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>OMA tiff file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeIconFile</key>
+			<string>omap</string>
+			<key>CFBundleTypeName</key>
+			<string>OMA Settings</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>OPRF</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>mac</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>OMA Macro</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>oma-ppc</string>
+	<key>CFBundleGetInfoString</key>
+	<string>OMA Image Analysis and Acqusition</string>
+	<key>CFBundleIconFile</key>
+	<string>oma-icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.oma</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>OMA</string>
+	<key>CFBundleSignature</key>
+	<string>OMAm</string>
+	<key>CFBundleVersion</key>
+	<string>2.1.5</string>
+	<key>LSPrefersCarbon</key>
+	<true/>
+</dict>
+</plist>

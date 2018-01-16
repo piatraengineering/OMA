@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/pkalt/.platformio/penv/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    }
+}

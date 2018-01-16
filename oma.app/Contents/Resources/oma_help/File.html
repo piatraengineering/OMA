@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <meta name="Generator" content="iWeb 2.0.3" />
+    <meta name="iWeb-Build" content="local-build-20080211" />
+    <meta name="viewport" content="width=720" />
+    <title>File I/O Commands</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="File_files/File.css" />
+    <!--[if IE]><link rel='stylesheet' type='text/css' media='screen,print' href='File_files/FileIE.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="File_files/File.js"></script>
+  </head>
+  <body style="background: #ffffff; margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: #ffffff; text-align: left; width: 720px; " id="body_content">
+        <div style="float: left; height: 0px; line-height: 0px; margin-left: 0px; position: relative; width: 720px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 720px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 35px; margin-top: 0px; position: relative; width: 630px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"current-page-GUID": "91D099F7-B586-47D9-AB70-F439AC32E00E", "path-to-root": "", "isCollectionPage": "NO", "navbar-css": ".navbar {\n\tfont-family: Arial, sans-serif;\n\tfont-size: 1em;\n\tcolor: #666;\n\tmargin: 9px 0px 6px 0px;\n\tline-height: 30px;\n}\n\n.navbar-bg {\n\ttext-align: center;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 10px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:hover\r{\r\n \tcolor: #463C3C;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #463C3C;\n\ttext-decoration: none;\n\tfont-weight: bold;\r\r}"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 720px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div style="margin-left: 35px; margin-top: 86px; position: relative; width: 630px; z-index: 1; " class="style_SkipStroke flowDefining">
+            <div class="text-content style_External_630_3051" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="paragraph_style">BINBYTE byte_num<br /></p>
+                <p class="paragraph_style">    Specify the number of bytes per dataword for files to be read with GETBINARY. If byte_num is -sizeof(float), the binary data are treated as float (i.e., byte_num = -4). Other reasonable values would be 1, 2, or 4.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">BINSIZE #columns #rows #header_bytes swap_bytes_flag<br /></p>
+                <p class="paragraph_style">    Specify parameters for files to be read with GETBINARY.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">CLOSE  <br /></p>
+                <p class="paragraph_style">    Closes the file opened with the CREATE command.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">COMPOSITE &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Create a composite image by appending the data in the specified file to that which exists in the current image buffer. The width of the specified file must be the same as that of the current image. The OPENFLAG command works in conjunction with the COMPOSITE command in the same way that it does with the GET command. <br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">COMTMP n <br /></p>
+                <p class="paragraph_style">    Create a composite image by appending the data in the temporary image to that which exists in the current image buffer. The width of the specified file must be the same as that of the current image.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">CONCATENATE  <br /></p>
+                <p class="paragraph_style">    Saves the current data buffer to the file opened with the CREATE command.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">CREATE &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Opens a file with the specified name, saves the current data and format information, and leaves the file open. Subsequently, the CONCATINATE command can be used to add more data to the open file.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">FRDATA &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Read formatted data (in the format written with FWDATA).<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">FRDATMAT &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Reads the data in a delimited text file. Use this to import 2D arrays from Excel or Matlab (for example). Can also read files written with the FWDATM command. Format is a matrix of values as follows: <br /></p>
+                <p class="paragraph_style">    first row of data values <br /></p>
+                <p class="paragraph_style">    second row of data values <br /></p>
+                <p class="paragraph_style">    . <br /></p>
+                <p class="paragraph_style">    . <br /></p>
+                <p class="paragraph_style">    .<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">FWDATA &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Writes the data in the current buffer as a tab-delimited text file. Format is as follows: <br /></p>
+                <p class="paragraph_style">    image_width image_height <br /></p>
+                <p class="paragraph_style">    1 first data value <br /></p>
+                <p class="paragraph_style">    2 second data value <br /></p>
+                <p class="paragraph_style">    . <br /></p>
+                <p class="paragraph_style">    . <br /></p>
+                <p class="paragraph_style">    .<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">FWDATMAT &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Writes the data in the current buffer as a tab-delimited text file. Format is a matrix of integer values as follows: <br /></p>
+                <p class="paragraph_style">    first row of data values <br /></p>
+                <p class="paragraph_style">    second row of data values <br /></p>
+                <p class="paragraph_style">    . <br /></p>
+                <p class="paragraph_style">    . <br /></p>
+                <p class="paragraph_style">    .<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">GET &lt;filename&gt;  <br /></p>
+                <p class="paragraph_style">    Loads the data from the specified file into the current image data buffer. The “Get Data Files” prefix and suffix are used.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">GETBINARY &lt;filename&gt;<br /></p>
+                <p class="paragraph_style">    Read in a binary file. Use BINSIZE to specify the format of the binary file.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">GETBLUE &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Open the blue part of a digital camera RAW image specified by the filename. The extension should be given in the filename (it does not use the suffix). This uses Dave Coffin's very slick dcraw.c code. This command can also open the blue plane of “.jpg” files.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">GETFIT &lt;filename&gt;  <br /></p>
+                <p class="paragraph_style">    Loads an image file in FITS format into the current image data buffer. Assumes the extension is .fts (ignores the suffix in get file prefs)<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">GETGRN &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Open the green part of a digital camera RAW image specified by the filename. The extension should be given in the filename (it does not use the suffix). This uses Dave Coffin's very slick dcraw.c code. This command can also open the green plane of “.jpg” files.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">GETPIC &lt;filename&gt;  <br /></p>
+                <p class="paragraph_style">    Opens an image file in PICT format. It is not automatically moved to the image buffer. Use GWINDO if you want this. NOT IMPLEMENTED IN VERSIONS BEYOND 2.0.6 <br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">GETRED &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Open the red part of a digital camera RAW image specified by the filename. The extension should be given in the filename (it does not use the suffix). This uses Dave Coffin's very slick dcraw.c code. This command can also open the red plane of “.jpg” files.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">GETRGB &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Open a digital camera RAW image specified by the filename. The extension should be given in the filename (it does not use the suffix). The red, green, and blue images are staked one on top of the other in a single image. This uses Dave Coffin's very slick dcraw.c code. This command can also open “.jpg” files.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">GETSETTINGS [filename]<br /></p>
+                <p class="paragraph_style">    Gets settings from the specified file (uses the appropriate prefix and suffix specified in the preferences). If no filename is given, OMA Settings from within the oma application are loaded. <br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">GTIFF &lt;filename&gt; [n] <br /></p>
+                <p class="paragraph_style">    Loads the file specified in 'filename' into the OMA image buffer. Three-plane, 8-bit per pixel images can be loaded (use DRGB for color display). Files up to 1-bit grey scale can be read. The optional argument [n] (default=0) specifies the page number (IFD) of the image to be read from TIFF files that have more than one image within a file. The first IFD is number 0.<br /></p>
+                <p class="paragraph_style">    The number of samples per pixel is returned as variable command_return_1.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">KRECSV &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Saves a subset of the current data buffer in a specified file. The subset is specified by the current selection rectangle. <br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">KRRGB &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Saves a subset of the current rgb data buffer in a specified file. The subset is specified by the current selection rectangle.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">OPENFLAG flag <br /></p>
+                <p class="paragraph_style">    flag=1 specifies that files opened with the GET and COMPOSITE commands should not be closed after the first data set is read in, but left open. Subsequently, GET or COMPOSITE commands can be executed with no argument, causing the next in a series of images stored in the single file to be read into the data buffer. flag=0 disables this option and is the default mode.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">PREFIX [fileprefix] <br /></p>
+                <p class="paragraph_style">    Specifies a “prefix” to be added to all filenames accessed through keyboard commands. This can be used to specify a default “/disk/ folder/subfolder/”. If no prefix is specified, the folder containing the oma program is the used as the default directory.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">SATIFF &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Converts the contents of the OMA Image buffer to 8 bit unsigned data and then uses the LibTIFF TIFFWriteEncodedStrip function to save the data to a TIFF image specified on the command line. The 'save' file prefixes are used. A “.tif” extension is automatically appended to the filename.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">SATIFFSCALED min max &lt;filename&gt;<br /></p>
+                <p class="paragraph_style">    Convert image to 8 bit and save as a Greyscale TIFF file. Uses the specified min and max for scaling rather than the min and max of the image in the buffer. Results will be between 0 - 255. Depending on min and max, the image may be clipped or the full 8-bit dynamic range may not be used.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">SAVE &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Saves the current data buffer to the specified file.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">SAVPDF &lt;filename&gt; <br /></p>
+                <p class="paragraph_style">    Saves the contents of the active window to a pdf file. This works for false color as well as linegraphics windows. <br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">SAVSETTINGS [filename]<br /></p>
+                <p class="paragraph_style">    Saves the current settings to the specified file (uses the appropriate prefix and suffix specified in the preferences). If no filename is given, OMA Settings are saved within the oma application. <br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">SUFFIX [filesuffix] <br /></p>
+                <p class="paragraph_style">    Specifies a “suffix” or extension to be added to all filenames accessed through keyboard commands. If no suffix is specified, a null suffix is used.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">SWAPBYTES flag <br /></p>
+                <p class="paragraph_style">    The SWAPBYTES command sets or clears a flag that determines if the GET and SAVE commands swap byte order on data read in or saved. This is included for cross-platform compatibility between Mac and Intel worlds. The flag should normally be set to 0 unless you are migrating data from one platform to another. This only affects GET and SAVE -- all other commands that use files leave the byte order alone.<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style">UPREFX type <br /></p>
+                <p class="paragraph_style">    Force use of prefix/suffix specified by 'type.' Possible cases for 'type' include the following: <br /></p>
+                <p class="paragraph_style">    s   Use Save File prefix and suffix <br /></p>
+                <p class="paragraph_style">    g   Use Get File prefix and suffix <br /></p>
+                <p class="paragraph_style">    d   Use Default prefix and suffix<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style"><br /></p>
+              </div>
+              <div style="height: 17px; line-height: 17px; " class="tinyText"> </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id1" style="height: 49px; left: 35px; position: absolute; top: 22px; width: 630px; z-index: 1; " class="style_SkipStroke_1">
+            <div class="text-content graphic_shape_layout_style_default_External_630_49" style="padding: 0px; ">
+              <div class="graphic_shape_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Title">File I/O Commands</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 1px; width: 630px;  height: 0px; left: 35px; position: absolute; top: 1px; width: 630px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 630px; ">
+              <img src="File_files/shapeimage_1.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 630px; " />
+            </div>
+          </div>
+          <div style="height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="height: 150px; margin-left: 0px; position: relative; width: 720px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

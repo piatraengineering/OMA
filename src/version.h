@@ -1,0 +1,1 @@
+#ifdef PIV#define VERSION_NUMBER "OMA_P V.2.0b"#else#define VERSION_NUMBER "OMA V.2.0b"#endif

@@ -1,0 +1,1758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0ECF1415BDC27B0090B60F /* SBIGUDrv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0ECF1315BDC27A0090B60F /* SBIGUDrv.framework */; };
+		DB0ECF1515BDC27B0090B60F /* SBIGUDrv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0ECF1315BDC27A0090B60F /* SBIGUDrv.framework */; };
+		DB2931840E8A76C100E5FD1D /* impMach-O-cam.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2931830E8A76C100E5FD1D /* impMach-O-cam.h */; };
+		DB310530147E87790059D584 /* oma.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB31052F147E87790059D584 /* oma.xib */; };
+		DB310533147E87790059D584 /* oma.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB31052F147E87790059D584 /* oma.xib */; };
+		DB310534147E87790059D584 /* oma.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB31052F147E87790059D584 /* oma.xib */; };
+		DB310536147E87790059D584 /* oma.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB31052F147E87790059D584 /* oma.xib */; };
+		DB3B2FAF0CBFD97B00D3B891 /* Atten.c in Sources */ = {isa = PBXBuildFile; fileRef = DB3B2FAC0CBFD97B00D3B891 /* Atten.c */; };
+		DB4AD22610A1E71B0011B48B /* impdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561CD0524893F008414D5 /* impdefs.h */; };
+		DB4AD22710A1E71B0011B48B /* impsys.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561CE0524893F008414D5 /* impsys.h */; };
+		DB4AD22810A1E71B0011B48B /* ljackmacx.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561E30524893F008414D5 /* ljackmacx.h */; };
+		DB4AD22910A1E71B0011B48B /* impMach-O-cam-GigE.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA759AE0529EE2A008414D5 /* impMach-O-cam-GigE.h */; };
+		DB4AD22A10A1E71B0011B48B /* omadialogsx.h in Headers */ = {isa = PBXBuildFile; fileRef = DB53B9E00566F82100127419 /* omadialogsx.h */; };
+		DB4AD22B10A1E71B0011B48B /* oma_quartz.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5840A509D712F000E0D55F /* oma_quartz.h */; };
+		DB4AD22C10A1E71B0011B48B /* SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD72F720A46BF3E003D9C5D /* SDK.h */; };
+		DB4AD22D10A1E71B0011B48B /* custom.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAFD21A0A46DAA400276739 /* custom.h */; };
+		DB4AD22E10A1E71B0011B48B /* u3.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7D21B70CD779FA00B1F7CD /* u3.h */; };
+		DB4AD23010A1E71B0011B48B /* oma-icns.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561C80524893F008414D5 /* oma-icns.icns */; };
+		DB4AD23110A1E71B0011B48B /* omad.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561C90524893F008414D5 /* omad.icns */; };
+		DB4AD23210A1E71B0011B48B /* omap.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561CA0524893F008414D5 /* omap.icns */; };
+		DB4AD23410A1E71B0011B48B /* OMA settings in Resources */ = {isa = PBXBuildFile; fileRef = DBDC6899058BC74B00FF1F69 /* OMA settings */; };
+		DB4AD23510A1E71B0011B48B /* oma help.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB1D2898058FE96A00498B68 /* oma help.txt */; };
+		DB4AD23610A1E71B0011B48B /* OMA palette2.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7310590B1E000D05292 /* OMA palette2.pa1 */; };
+		DB4AD23710A1E71B0011B48B /* OMA palette.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7380590B41900D05292 /* OMA palette.pa1 */; };
+		DB4AD23810A1E71B0011B48B /* OMA palette3.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7390590B41900D05292 /* OMA palette3.pa1 */; };
+		DB4AD23A10A1E71B0011B48B /* oma_help in Resources */ = {isa = PBXBuildFile; fileRef = DBFB15180D600FAF000C75F8 /* oma_help */; };
+		DB4AD23C10A1E71B0011B48B /* imp.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561CF0524893F008414D5 /* imp.c */; };
+		DB4AD23D10A1E71B0011B48B /* imp2.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D00524893F008414D5 /* imp2.c */; };
+		DB4AD23E10A1E71B0011B48B /* comdecx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D10524893F008414D5 /* comdecx.c */; };
+		DB4AD23F10A1E71B0011B48B /* custom.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D20524893F008414D5 /* custom.c */; };
+		DB4AD24010A1E71B0011B48B /* impdisx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D30524893F008414D5 /* impdisx.c */; };
+		DB4AD24110A1E71B0011B48B /* impdrx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D40524893F008414D5 /* impdrx.c */; };
+		DB4AD24210A1E71B0011B48B /* redefs.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D50524893F008414D5 /* redefs.c */; };
+		DB4AD24310A1E71B0011B48B /* omadialogsx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D60524893F008414D5 /* omadialogsx.c */; };
+		DB4AD24410A1E71B0011B48B /* domenux.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D70524893F008414D5 /* domenux.c */; };
+		DB4AD24610A1E71B0011B48B /* plotchansx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D90524893F008414D5 /* plotchansx.c */; };
+		DB4AD24710A1E71B0011B48B /* plotonex.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DA0524893F008414D5 /* plotonex.c */; };
+		DB4AD24810A1E71B0011B48B /* dofft.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DB0524893F008414D5 /* dofft.c */; };
+		DB4AD24910A1E71B0011B48B /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DC0524893F008414D5 /* fft.c */; };
+		DB4AD24A10A1E71B0011B48B /* fft2.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DD0524893F008414D5 /* fft2.c */; };
+		DB4AD24B10A1E71B0011B48B /* pivgraph.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DE0524893F008414D5 /* pivgraph.c */; };
+		DB4AD24C10A1E71B0011B48B /* surfacex.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DF0524893F008414D5 /* surfacex.c */; };
+		DB4AD24D10A1E71B0011B48B /* linegraphicsx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E00524893F008414D5 /* linegraphicsx.c */; };
+		DB4AD24E10A1E71B0011B48B /* lineoutx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E10524893F008414D5 /* lineoutx.c */; };
+		DB4AD24F10A1E71B0011B48B /* ljackmacx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E20524893F008414D5 /* ljackmacx.c */; };
+		DB4AD25010A1E71B0011B48B /* labio.c in Sources */ = {isa = PBXBuildFile; fileRef = DB6C0D63052D9BAE008414D5 /* labio.c */; };
+		DB4AD25110A1E71B0011B48B /* gpib.c in Sources */ = {isa = PBXBuildFile; fileRef = DBCC69BD05485DCB008414D5 /* gpib.c */; };
+		DB4AD25210A1E71B0011B48B /* jpeg-io.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD2933D0768A6FC00AC4B02 /* jpeg-io.c */; };
+		DB4AD25310A1E71B0011B48B /* dcrawx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB8689DD076CDB2B00C86B81 /* dcrawx.c */; };
+		DB4AD25410A1E71B0011B48B /* impdisq.c in Sources */ = {isa = PBXBuildFile; fileRef = DB93822F09CCBD9300001D0F /* impdisq.c */; };
+		DB4AD25510A1E71B0011B48B /* plonchansq.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7970EF09D4AAA900D1E2C4 /* plonchansq.c */; };
+		DB4AD25610A1E71B0011B48B /* pdf_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D06209F541E40089451B /* pdf_copy.c */; };
+		DB4AD25710A1E71B0011B48B /* SDK.c in Sources */ = {isa = PBXBuildFile; fileRef = DB4BAE080A4838090068A736 /* SDK.c */; };
+		DB4AD25810A1E71B0011B48B /* Atten.c in Sources */ = {isa = PBXBuildFile; fileRef = DB3B2FAC0CBFD97B00D3B891 /* Atten.c */; };
+		DB4AD25910A1E71B0011B48B /* u3.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7D21B20CD779E000B1F7CD /* u3.c */; };
+		DB4AD25A10A1E71B0011B48B /* sbig.c in Sources */ = {isa = PBXBuildFile; fileRef = DB6D52720E812F4200DCF83B /* sbig.c */; };
+		DB4AD25B10A1E71B0011B48B /* gphoto-stuff.c in Sources */ = {isa = PBXBuildFile; fileRef = DBADE31D0EE9A20900506316 /* gphoto-stuff.c */; };
+		DB4AD25C10A1E71B0011B48B /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = DBDD09CB0EE9C3F500ED6C36 /* config.c */; };
+		DB4AD25D10A1E71B0011B48B /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = DBDD09CC0EE9C3F500ED6C36 /* context.c */; };
+		DB4AD25F10A1E71B0011B48B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95620805248940008414D5 /* Carbon.framework */; };
+		DB4AD26010A1E71B0011B48B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95620A05248940008414D5 /* IOKit.framework */; };
+		DB4AD26110A1E71B0011B48B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95623605248CCF008414D5 /* ApplicationServices.framework */; };
+		DB4AD26210A1E71B0011B48B /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95623805248CEE008414D5 /* CoreServices.framework */; };
+		DB4AD26310A1E71B0011B48B /* LibTiff_F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB86C553052F8638000001C2 /* LibTiff_F.framework */; };
+		DB4AD26410A1E71B0011B48B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC69CF054861AB008414D5 /* CoreFoundation.framework */; };
+		DB4AD26510A1E71B0011B48B /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8FBB3A0860FF4A00071007 /* libjpeg.a */; };
+		DB4AD26610A1E71B0011B48B /* VISA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE783470B32F5E0001329A0 /* VISA.framework */; };
+		DB4AD26710A1E71B0011B48B /* liblabjackusb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAAE5470CD7AE65008DA83A /* liblabjackusb.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DB4AD26B10A1E71B0011B48B /* main.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = DB9561C70524893F008414D5 /* main.rsrc */; };
+		DB4AD26D10A1E71B0011B48B /* LibTiff_F.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB86C553052F8638000001C2 /* LibTiff_F.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DB4BAE0B0A4838090068A736 /* SDK.c in Sources */ = {isa = PBXBuildFile; fileRef = DB4BAE080A4838090068A736 /* SDK.c */; };
+		DB5495B2147AE3BF003E3ECC /* main.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = DB9561C70524893F008414D5 /* main.rsrc */; };
+		DB5840A809D712F000E0D55F /* oma_quartz.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5840A509D712F000E0D55F /* oma_quartz.h */; };
+		DB6D52740E812F4200DCF83B /* sbig.c in Sources */ = {isa = PBXBuildFile; fileRef = DB6D52720E812F4200DCF83B /* sbig.c */; };
+		DB7970F209D4AAAA00D1E2C4 /* plonchansq.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7970EF09D4AAA900D1E2C4 /* plonchansq.c */; };
+		DB7D21B50CD779E000B1F7CD /* u3.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7D21B20CD779E000B1F7CD /* u3.c */; };
+		DB7D21BA0CD779FA00B1F7CD /* u3.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7D21B70CD779FA00B1F7CD /* u3.h */; };
+		DB8FBABD0860FC4500071007 /* impdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561CD0524893F008414D5 /* impdefs.h */; };
+		DB8FBABE0860FC4500071007 /* impsys.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561CE0524893F008414D5 /* impsys.h */; };
+		DB8FBABF0860FC4500071007 /* ljackmacx.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561E30524893F008414D5 /* ljackmacx.h */; };
+		DB8FBAC10860FC4500071007 /* omadialogsx.h in Headers */ = {isa = PBXBuildFile; fileRef = DB53B9E00566F82100127419 /* omadialogsx.h */; };
+		DB8FBAC30860FC4500071007 /* oma-icns.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561C80524893F008414D5 /* oma-icns.icns */; };
+		DB8FBAC40860FC4500071007 /* omad.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561C90524893F008414D5 /* omad.icns */; };
+		DB8FBAC50860FC4500071007 /* omap.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561CA0524893F008414D5 /* omap.icns */; };
+		DB8FBAC70860FC4500071007 /* OMA settings in Resources */ = {isa = PBXBuildFile; fileRef = DBDC6899058BC74B00FF1F69 /* OMA settings */; };
+		DB8FBAC80860FC4500071007 /* oma help.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB1D2898058FE96A00498B68 /* oma help.txt */; };
+		DB8FBAC90860FC4500071007 /* OMA palette2.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7310590B1E000D05292 /* OMA palette2.pa1 */; };
+		DB8FBACA0860FC4500071007 /* OMA palette.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7380590B41900D05292 /* OMA palette.pa1 */; };
+		DB8FBACB0860FC4500071007 /* OMA palette3.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7390590B41900D05292 /* OMA palette3.pa1 */; };
+		DB8FBACD0860FC4500071007 /* imp.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561CF0524893F008414D5 /* imp.c */; };
+		DB8FBACE0860FC4500071007 /* imp2.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D00524893F008414D5 /* imp2.c */; };
+		DB8FBACF0860FC4500071007 /* comdecx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D10524893F008414D5 /* comdecx.c */; };
+		DB8FBAD00860FC4500071007 /* custom.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D20524893F008414D5 /* custom.c */; };
+		DB8FBAD10860FC4500071007 /* impdisx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D30524893F008414D5 /* impdisx.c */; };
+		DB8FBAD20860FC4500071007 /* impdrx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D40524893F008414D5 /* impdrx.c */; };
+		DB8FBAD30860FC4500071007 /* redefs.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D50524893F008414D5 /* redefs.c */; };
+		DB8FBAD40860FC4500071007 /* omadialogsx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D60524893F008414D5 /* omadialogsx.c */; };
+		DB8FBAD50860FC4500071007 /* domenux.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D70524893F008414D5 /* domenux.c */; };
+		DB8FBAD70860FC4500071007 /* plotchansx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D90524893F008414D5 /* plotchansx.c */; };
+		DB8FBAD80860FC4500071007 /* plotonex.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DA0524893F008414D5 /* plotonex.c */; };
+		DB8FBAD90860FC4500071007 /* dofft.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DB0524893F008414D5 /* dofft.c */; };
+		DB8FBADA0860FC4500071007 /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DC0524893F008414D5 /* fft.c */; };
+		DB8FBADB0860FC4500071007 /* fft2.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DD0524893F008414D5 /* fft2.c */; };
+		DB8FBADC0860FC4500071007 /* pivgraph.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DE0524893F008414D5 /* pivgraph.c */; };
+		DB8FBADD0860FC4500071007 /* surfacex.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DF0524893F008414D5 /* surfacex.c */; };
+		DB8FBADE0860FC4500071007 /* linegraphicsx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E00524893F008414D5 /* linegraphicsx.c */; };
+		DB8FBADF0860FC4500071007 /* lineoutx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E10524893F008414D5 /* lineoutx.c */; };
+		DB8FBAE00860FC4500071007 /* ljackmacx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E20524893F008414D5 /* ljackmacx.c */; };
+		DB8FBAE10860FC4500071007 /* labio.c in Sources */ = {isa = PBXBuildFile; fileRef = DB6C0D63052D9BAE008414D5 /* labio.c */; };
+		DB8FBAE20860FC4500071007 /* gpib-CFM.c in Sources */ = {isa = PBXBuildFile; fileRef = DBCC69BC05485DCB008414D5 /* gpib-CFM.c */; };
+		DB8FBAE30860FC4500071007 /* gpib.c in Sources */ = {isa = PBXBuildFile; fileRef = DBCC69BD05485DCB008414D5 /* gpib.c */; };
+		DB8FBAE40860FC4500071007 /* jpeg-io.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD2933D0768A6FC00AC4B02 /* jpeg-io.c */; };
+		DB8FBAE50860FC4500071007 /* dcrawx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB8689DD076CDB2B00C86B81 /* dcrawx.c */; };
+		DB8FBAE70860FC4500071007 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95620805248940008414D5 /* Carbon.framework */; };
+		DB8FBAE80860FC4500071007 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95620A05248940008414D5 /* IOKit.framework */; };
+		DB8FBAE90860FC4500071007 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95623605248CCF008414D5 /* ApplicationServices.framework */; };
+		DB8FBAEA0860FC4500071007 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95623805248CEE008414D5 /* CoreServices.framework */; };
+		DB8FBAEB0860FC4500071007 /* LibTiff_F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB86C553052F8638000001C2 /* LibTiff_F.framework */; };
+		DB8FBAED0860FC4500071007 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC69CF054861AB008414D5 /* CoreFoundation.framework */; };
+		DB8FBAF20860FC4500071007 /* LibTiff_F.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB86C553052F8638000001C2 /* LibTiff_F.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DB8FBB3C0860FF4A00071007 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8FBB3A0860FF4A00071007 /* libjpeg.a */; };
+		DB93823209CCBD9300001D0F /* impdisq.c in Sources */ = {isa = PBXBuildFile; fileRef = DB93822F09CCBD9300001D0F /* impdisq.c */; };
+		DB9C09C91222039400454EA5 /* libImagelib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C09C61222039400454EA5 /* libImagelib.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DB9C09CA1222039400454EA5 /* libPvAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C09C71222039400454EA5 /* libPvAPI.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DB9C09CB1222039400454EA5 /* libPvAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C09C81222039400454EA5 /* libPvAPI.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DB9C09D2122203BD00454EA5 /* gige.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9C09CE122203BD00454EA5 /* gige.c */; };
+		DB9C09D3122203BD00454EA5 /* ImageLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9C09CF122203BD00454EA5 /* ImageLib.h */; };
+		DB9C09D4122203BD00454EA5 /* PvApi.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9C09D0122203BD00454EA5 /* PvApi.h */; };
+		DBA72E9C10A1BFF400D3A722 /* impdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561CD0524893F008414D5 /* impdefs.h */; };
+		DBA72E9D10A1BFF400D3A722 /* impsys.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561CE0524893F008414D5 /* impsys.h */; };
+		DBA72E9E10A1BFF400D3A722 /* ljackmacx.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561E30524893F008414D5 /* ljackmacx.h */; };
+		DBA72E9F10A1BFF400D3A722 /* impMach-O-u.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1FF9B105346583008414D5 /* impMach-O-u.h */; };
+		DBA72EA010A1BFF400D3A722 /* omadialogsx.h in Headers */ = {isa = PBXBuildFile; fileRef = DB53B9E00566F82100127419 /* omadialogsx.h */; };
+		DBA72EA110A1BFF400D3A722 /* oma_quartz.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5840A509D712F000E0D55F /* oma_quartz.h */; };
+		DBA72EA210A1BFF400D3A722 /* SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD72F720A46BF3E003D9C5D /* SDK.h */; };
+		DBA72EA310A1BFF400D3A722 /* custom.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAFD21A0A46DAA400276739 /* custom.h */; };
+		DBA72EA510A1BFF400D3A722 /* oma-icns.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561C80524893F008414D5 /* oma-icns.icns */; };
+		DBA72EA610A1BFF400D3A722 /* omad.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561C90524893F008414D5 /* omad.icns */; };
+		DBA72EA710A1BFF400D3A722 /* omap.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561CA0524893F008414D5 /* omap.icns */; };
+		DBA72EA910A1BFF400D3A722 /* OMA settings in Resources */ = {isa = PBXBuildFile; fileRef = DBDC6899058BC74B00FF1F69 /* OMA settings */; };
+		DBA72EAA10A1BFF400D3A722 /* oma help.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB1D2898058FE96A00498B68 /* oma help.txt */; };
+		DBA72EAB10A1BFF400D3A722 /* OMA palette2.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7310590B1E000D05292 /* OMA palette2.pa1 */; };
+		DBA72EAC10A1BFF400D3A722 /* OMA palette.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7380590B41900D05292 /* OMA palette.pa1 */; };
+		DBA72EAD10A1BFF400D3A722 /* OMA palette3.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7390590B41900D05292 /* OMA palette3.pa1 */; };
+		DBA72EB010A1BFF400D3A722 /* oma_help in Resources */ = {isa = PBXBuildFile; fileRef = DBFB15180D600FAF000C75F8 /* oma_help */; };
+		DBA72EB210A1BFF400D3A722 /* imp.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561CF0524893F008414D5 /* imp.c */; };
+		DBA72EB310A1BFF400D3A722 /* imp2.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D00524893F008414D5 /* imp2.c */; };
+		DBA72EB410A1BFF400D3A722 /* comdecx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D10524893F008414D5 /* comdecx.c */; };
+		DBA72EB510A1BFF400D3A722 /* impdisx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D30524893F008414D5 /* impdisx.c */; };
+		DBA72EB610A1BFF400D3A722 /* impdrx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D40524893F008414D5 /* impdrx.c */; };
+		DBA72EB710A1BFF400D3A722 /* redefs.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D50524893F008414D5 /* redefs.c */; };
+		DBA72EB810A1BFF400D3A722 /* domenux.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D70524893F008414D5 /* domenux.c */; };
+		DBA72EB910A1BFF400D3A722 /* menucommandsx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D80524893F008414D5 /* menucommandsx.c */; };
+		DBA72EBA10A1BFF400D3A722 /* plotchansx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D90524893F008414D5 /* plotchansx.c */; };
+		DBA72EBB10A1BFF400D3A722 /* plotonex.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DA0524893F008414D5 /* plotonex.c */; };
+		DBA72EBC10A1BFF400D3A722 /* dofft.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DB0524893F008414D5 /* dofft.c */; };
+		DBA72EBD10A1BFF400D3A722 /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DC0524893F008414D5 /* fft.c */; };
+		DBA72EBE10A1BFF400D3A722 /* fft2.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DD0524893F008414D5 /* fft2.c */; };
+		DBA72EBF10A1BFF400D3A722 /* pivgraph.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DE0524893F008414D5 /* pivgraph.c */; };
+		DBA72EC010A1BFF400D3A722 /* surfacex.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DF0524893F008414D5 /* surfacex.c */; };
+		DBA72EC110A1BFF400D3A722 /* linegraphicsx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E00524893F008414D5 /* linegraphicsx.c */; };
+		DBA72EC210A1BFF400D3A722 /* lineoutx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E10524893F008414D5 /* lineoutx.c */; };
+		DBA72EC310A1BFF400D3A722 /* ljackmacx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E20524893F008414D5 /* ljackmacx.c */; };
+		DBA72EC410A1BFF400D3A722 /* labio.c in Sources */ = {isa = PBXBuildFile; fileRef = DB6C0D63052D9BAE008414D5 /* labio.c */; };
+		DBA72EC510A1BFF400D3A722 /* omadialogsx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D60524893F008414D5 /* omadialogsx.c */; };
+		DBA72EC610A1BFF400D3A722 /* custom.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D20524893F008414D5 /* custom.c */; };
+		DBA72EC710A1BFF400D3A722 /* jpeg-io.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD2933D0768A6FC00AC4B02 /* jpeg-io.c */; };
+		DBA72EC810A1BFF400D3A722 /* dcrawx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB8689DD076CDB2B00C86B81 /* dcrawx.c */; };
+		DBA72EC910A1BFF400D3A722 /* impdisq.c in Sources */ = {isa = PBXBuildFile; fileRef = DB93822F09CCBD9300001D0F /* impdisq.c */; };
+		DBA72ECA10A1BFF400D3A722 /* plonchansq.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7970EF09D4AAA900D1E2C4 /* plonchansq.c */; };
+		DBA72ECB10A1BFF400D3A722 /* pdf_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D06209F541E40089451B /* pdf_copy.c */; };
+		DBA72ECC10A1BFF400D3A722 /* SDK.c in Sources */ = {isa = PBXBuildFile; fileRef = DB4BAE080A4838090068A736 /* SDK.c */; };
+		DBA72ECD10A1BFF400D3A722 /* Atten.c in Sources */ = {isa = PBXBuildFile; fileRef = DB3B2FAC0CBFD97B00D3B891 /* Atten.c */; };
+		DBA72ECE10A1BFF400D3A722 /* sbig.c in Sources */ = {isa = PBXBuildFile; fileRef = DB6D52720E812F4200DCF83B /* sbig.c */; };
+		DBA72ED010A1BFF400D3A722 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95620805248940008414D5 /* Carbon.framework */; };
+		DBA72ED110A1BFF400D3A722 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95620A05248940008414D5 /* IOKit.framework */; };
+		DBA72ED210A1BFF400D3A722 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95623605248CCF008414D5 /* ApplicationServices.framework */; };
+		DBA72ED310A1BFF400D3A722 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95623805248CEE008414D5 /* CoreServices.framework */; };
+		DBA72ED410A1BFF400D3A722 /* LibTiff_F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB86C553052F8638000001C2 /* LibTiff_F.framework */; };
+		DBA72ED510A1BFF400D3A722 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8FBB3A0860FF4A00071007 /* libjpeg.a */; };
+		DBA72ED610A1BFF400D3A722 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC69CF054861AB008414D5 /* CoreFoundation.framework */; };
+		DBA72ED710A1BFF400D3A722 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8DC22209C899C3009B983F /* QuartzCore.framework */; };
+		DBA72ED910A1BFF400D3A722 /* main.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = DB9561C70524893F008414D5 /* main.rsrc */; };
+		DBA72EDB10A1BFF400D3A722 /* LibTiff_F.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB86C553052F8638000001C2 /* LibTiff_F.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DBA9D06409F541E40089451B /* pdf_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D06209F541E40089451B /* pdf_copy.c */; };
+		DBAAE54A0CD7AE65008DA83A /* liblabjackusb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAAE5470CD7AE65008DA83A /* liblabjackusb.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DBADE31E0EE9A20900506316 /* gphoto-stuff.c in Sources */ = {isa = PBXBuildFile; fileRef = DBADE31D0EE9A20900506316 /* gphoto-stuff.c */; };
+		DBAFD21C0A46DAA400276739 /* custom.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAFD21A0A46DAA400276739 /* custom.h */; };
+		DBC1312C14B9FC66002416FB /* labjackusb.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC1312B14B9FC66002416FB /* labjackusb.h */; };
+		DBC931A31221D1AB00D3C74B /* impdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561CD0524893F008414D5 /* impdefs.h */; };
+		DBC931A41221D1AB00D3C74B /* impsys.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561CE0524893F008414D5 /* impsys.h */; };
+		DBC931A51221D1AB00D3C74B /* ljackmacx.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9561E30524893F008414D5 /* ljackmacx.h */; };
+		DBC931A61221D1AB00D3C74B /* impMach-O-cam-GigE.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA759AE0529EE2A008414D5 /* impMach-O-cam-GigE.h */; };
+		DBC931A71221D1AB00D3C74B /* omadialogsx.h in Headers */ = {isa = PBXBuildFile; fileRef = DB53B9E00566F82100127419 /* omadialogsx.h */; };
+		DBC931A81221D1AB00D3C74B /* oma_quartz.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5840A509D712F000E0D55F /* oma_quartz.h */; };
+		DBC931A91221D1AB00D3C74B /* SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD72F720A46BF3E003D9C5D /* SDK.h */; };
+		DBC931AA1221D1AB00D3C74B /* custom.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAFD21A0A46DAA400276739 /* custom.h */; };
+		DBC931AB1221D1AB00D3C74B /* u3.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7D21B70CD779FA00B1F7CD /* u3.h */; };
+		DBC931AD1221D1AB00D3C74B /* oma-icns.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561C80524893F008414D5 /* oma-icns.icns */; };
+		DBC931AE1221D1AB00D3C74B /* omad.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561C90524893F008414D5 /* omad.icns */; };
+		DBC931AF1221D1AB00D3C74B /* omap.icns in Resources */ = {isa = PBXBuildFile; fileRef = DB9561CA0524893F008414D5 /* omap.icns */; };
+		DBC931B11221D1AB00D3C74B /* OMA settings in Resources */ = {isa = PBXBuildFile; fileRef = DBDC6899058BC74B00FF1F69 /* OMA settings */; };
+		DBC931B21221D1AB00D3C74B /* oma help.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB1D2898058FE96A00498B68 /* oma help.txt */; };
+		DBC931B31221D1AB00D3C74B /* OMA palette2.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7310590B1E000D05292 /* OMA palette2.pa1 */; };
+		DBC931B41221D1AB00D3C74B /* OMA palette.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7380590B41900D05292 /* OMA palette.pa1 */; };
+		DBC931B51221D1AB00D3C74B /* OMA palette3.pa1 in Resources */ = {isa = PBXBuildFile; fileRef = DBBBB7390590B41900D05292 /* OMA palette3.pa1 */; };
+		DBC931B61221D1AB00D3C74B /* oma_help in Resources */ = {isa = PBXBuildFile; fileRef = DBFB15180D600FAF000C75F8 /* oma_help */; };
+		DBC931B81221D1AB00D3C74B /* imp.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561CF0524893F008414D5 /* imp.c */; };
+		DBC931B91221D1AB00D3C74B /* imp2.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D00524893F008414D5 /* imp2.c */; };
+		DBC931BA1221D1AB00D3C74B /* comdecx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D10524893F008414D5 /* comdecx.c */; };
+		DBC931BB1221D1AB00D3C74B /* custom.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D20524893F008414D5 /* custom.c */; };
+		DBC931BC1221D1AB00D3C74B /* impdisx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D30524893F008414D5 /* impdisx.c */; };
+		DBC931BD1221D1AB00D3C74B /* impdrx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D40524893F008414D5 /* impdrx.c */; };
+		DBC931BE1221D1AB00D3C74B /* redefs.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D50524893F008414D5 /* redefs.c */; };
+		DBC931BF1221D1AB00D3C74B /* omadialogsx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D60524893F008414D5 /* omadialogsx.c */; };
+		DBC931C01221D1AB00D3C74B /* domenux.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D70524893F008414D5 /* domenux.c */; };
+		DBC931C21221D1AB00D3C74B /* plotchansx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561D90524893F008414D5 /* plotchansx.c */; };
+		DBC931C31221D1AB00D3C74B /* plotonex.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DA0524893F008414D5 /* plotonex.c */; };
+		DBC931C41221D1AB00D3C74B /* dofft.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DB0524893F008414D5 /* dofft.c */; };
+		DBC931C51221D1AB00D3C74B /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DC0524893F008414D5 /* fft.c */; };
+		DBC931C61221D1AB00D3C74B /* fft2.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DD0524893F008414D5 /* fft2.c */; };
+		DBC931C71221D1AB00D3C74B /* pivgraph.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DE0524893F008414D5 /* pivgraph.c */; };
+		DBC931C81221D1AB00D3C74B /* surfacex.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561DF0524893F008414D5 /* surfacex.c */; };
+		DBC931C91221D1AB00D3C74B /* linegraphicsx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E00524893F008414D5 /* linegraphicsx.c */; };
+		DBC931CA1221D1AB00D3C74B /* lineoutx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E10524893F008414D5 /* lineoutx.c */; };
+		DBC931CB1221D1AB00D3C74B /* ljackmacx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9561E20524893F008414D5 /* ljackmacx.c */; };
+		DBC931CC1221D1AB00D3C74B /* labio.c in Sources */ = {isa = PBXBuildFile; fileRef = DB6C0D63052D9BAE008414D5 /* labio.c */; };
+		DBC931CE1221D1AB00D3C74B /* jpeg-io.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD2933D0768A6FC00AC4B02 /* jpeg-io.c */; };
+		DBC931CF1221D1AB00D3C74B /* dcrawx.c in Sources */ = {isa = PBXBuildFile; fileRef = DB8689DD076CDB2B00C86B81 /* dcrawx.c */; };
+		DBC931D01221D1AB00D3C74B /* impdisq.c in Sources */ = {isa = PBXBuildFile; fileRef = DB93822F09CCBD9300001D0F /* impdisq.c */; };
+		DBC931D11221D1AB00D3C74B /* plonchansq.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7970EF09D4AAA900D1E2C4 /* plonchansq.c */; };
+		DBC931D21221D1AB00D3C74B /* pdf_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D06209F541E40089451B /* pdf_copy.c */; };
+		DBC931D31221D1AB00D3C74B /* SDK.c in Sources */ = {isa = PBXBuildFile; fileRef = DB4BAE080A4838090068A736 /* SDK.c */; };
+		DBC931D41221D1AB00D3C74B /* Atten.c in Sources */ = {isa = PBXBuildFile; fileRef = DB3B2FAC0CBFD97B00D3B891 /* Atten.c */; };
+		DBC931D51221D1AB00D3C74B /* u3.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7D21B20CD779E000B1F7CD /* u3.c */; };
+		DBC931D61221D1AB00D3C74B /* sbig.c in Sources */ = {isa = PBXBuildFile; fileRef = DB6D52720E812F4200DCF83B /* sbig.c */; };
+		DBC931D71221D1AB00D3C74B /* gphoto-stuff.c in Sources */ = {isa = PBXBuildFile; fileRef = DBADE31D0EE9A20900506316 /* gphoto-stuff.c */; };
+		DBC931D81221D1AB00D3C74B /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = DBDD09CB0EE9C3F500ED6C36 /* config.c */; };
+		DBC931D91221D1AB00D3C74B /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = DBDD09CC0EE9C3F500ED6C36 /* context.c */; };
+		DBC931DB1221D1AB00D3C74B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95620805248940008414D5 /* Carbon.framework */; };
+		DBC931DC1221D1AB00D3C74B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95620A05248940008414D5 /* IOKit.framework */; };
+		DBC931DD1221D1AB00D3C74B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95623605248CCF008414D5 /* ApplicationServices.framework */; };
+		DBC931DE1221D1AB00D3C74B /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB95623805248CEE008414D5 /* CoreServices.framework */; };
+		DBC931DF1221D1AB00D3C74B /* LibTiff_F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB86C553052F8638000001C2 /* LibTiff_F.framework */; };
+		DBC931E01221D1AB00D3C74B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC69CF054861AB008414D5 /* CoreFoundation.framework */; };
+		DBC931E11221D1AB00D3C74B /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8FBB3A0860FF4A00071007 /* libjpeg.a */; };
+		DBC931E71221D1AB00D3C74B /* main.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = DB9561C70524893F008414D5 /* main.rsrc */; };
+		DBC931E91221D1AB00D3C74B /* LibTiff_F.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB86C553052F8638000001C2 /* LibTiff_F.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DBD432E5176B2CC200007F62 /* hdrloaderC.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD432E3176B2CC200007F62 /* hdrloaderC.h */; };
+		DBD432E7176B2FDF00007F62 /* hdrloader.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD432E6176B2FDF00007F62 /* hdrloader.c */; };
+		DBD432E8176B2FDF00007F62 /* hdrloader.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD432E6176B2FDF00007F62 /* hdrloader.c */; };
+		DBD432E9176B2FDF00007F62 /* hdrloader.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD432E6176B2FDF00007F62 /* hdrloader.c */; };
+		DBD432EA176B2FDF00007F62 /* hdrloader.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD432E6176B2FDF00007F62 /* hdrloader.c */; };
+		DBD432EB176B441B00007F62 /* hdrloaderC.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD432E3176B2CC200007F62 /* hdrloaderC.h */; };
+		DBD432EC176B441C00007F62 /* hdrloaderC.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD432E3176B2CC200007F62 /* hdrloaderC.h */; };
+		DBD432ED176B441C00007F62 /* hdrloaderC.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD432E3176B2CC200007F62 /* hdrloaderC.h */; };
+		DBD72F740A46BF3E003D9C5D /* SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD72F720A46BF3E003D9C5D /* SDK.h */; };
+		DBDD09CD0EE9C3F500ED6C36 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = DBDD09CB0EE9C3F500ED6C36 /* config.c */; };
+		DBDD09CE0EE9C3F500ED6C36 /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = DBDD09CC0EE9C3F500ED6C36 /* context.c */; };
+		DBDE993614BC927E00351163 /* liblabjackusb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAAE5470CD7AE65008DA83A /* liblabjackusb.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DBF10DC7159263F5003DCC7B /* VISA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE783470B32F5E0001329A0 /* VISA.framework */; };
+		DBF10DC81592692A003DCC7B /* NI488.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC69C005485EE0008414D5 /* NI488.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DBFB159C0D600FAF000C75F8 /* oma_help in Resources */ = {isa = PBXBuildFile; fileRef = DBFB15180D600FAF000C75F8 /* oma_help */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB4AD26C10A1E71B0011B48B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DB4AD26D10A1E71B0011B48B /* LibTiff_F.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8FBAF10860FC4500071007 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DB8FBAF20860FC4500071007 /* LibTiff_F.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA72EDA10A1BFF400D3A722 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBA72EDB10A1BFF400D3A722 /* LibTiff_F.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC931E81221D1AB00D3C74B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBC931E91221D1AB00D3C74B /* LibTiff_F.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB0ECF1315BDC27A0090B60F /* SBIGUDrv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SBIGUDrv.framework; path = /Library/Frameworks/SBIGUDrv.framework; sourceTree = "<absolute>"; };
+		DB1D2898058FE96A00498B68 /* oma help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = "oma help.txt"; sourceTree = "<group>"; usesTabs = 1; };
+		DB1FF9B105346583008414D5 /* impMach-O-u.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "impMach-O-u.h"; sourceTree = "<group>"; };
+		DB2931830E8A76C100E5FD1D /* impMach-O-cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "impMach-O-cam.h"; sourceTree = "<group>"; };
+		DB31052F147E87790059D584 /* oma.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = oma.xib; sourceTree = "<group>"; };
+		DB3B2FAC0CBFD97B00D3B891 /* Atten.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = Atten.c; sourceTree = "<group>"; };
+		DB4AD27210A1E71B0011B48B /* oma-cam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oma-cam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4BAE080A4838090068A736 /* SDK.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = SDK.c; sourceTree = "<group>"; };
+		DB53B9E00566F82100127419 /* omadialogsx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omadialogsx.h; sourceTree = "<group>"; };
+		DB5840A509D712F000E0D55F /* oma_quartz.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = oma_quartz.h; sourceTree = "<group>"; };
+		DB604AAA0536ED9B008414D5 /* pvc_oma.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = pvc_oma.c; sourceTree = "<group>"; };
+		DB604AAC0536EDCE008414D5 /* PVCAM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PVCAM.framework; path = /System/Library/Frameworks/PVCAM.framework; sourceTree = "<absolute>"; };
+		DB604AAE0536FA07008414D5 /* cam_func.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = cam_func.c; sourceTree = "<group>"; };
+		DB6C0D63052D9BAE008414D5 /* labio.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = labio.c; sourceTree = "<group>"; };
+		DB6D52720E812F4200DCF83B /* sbig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sbig.c; sourceTree = "<group>"; };
+		DB75BADD05345F3E008414D5 /* SensiCamx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = SensiCamx.c; sourceTree = "<group>"; };
+		DB7970EF09D4AAA900D1E2C4 /* plonchansq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = plonchansq.c; sourceTree = "<group>"; };
+		DB7D21B20CD779E000B1F7CD /* u3.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = u3.c; sourceTree = "<group>"; };
+		DB7D21B70CD779FA00B1F7CD /* u3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = u3.h; sourceTree = "<group>"; };
+		DB8689DD076CDB2B00C86B81 /* dcrawx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = dcrawx.c; sourceTree = "<group>"; };
+		DB86C553052F8638000001C2 /* LibTiff_F.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LibTiff_F.framework; sourceTree = SOURCE_ROOT; };
+		DB8DC22209C899C3009B983F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		DB8FBAF80860FC4500071007 /* oma-cam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oma-cam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8FBB3A0860FF4A00071007 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		DB93822F09CCBD9300001D0F /* impdisq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = impdisq.c; sourceTree = "<group>"; };
+		DB9561C70524893F008414D5 /* main.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = main.rsrc; sourceTree = "<group>"; };
+		DB9561C80524893F008414D5 /* oma-icns.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "oma-icns.icns"; sourceTree = "<group>"; };
+		DB9561C90524893F008414D5 /* omad.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = omad.icns; sourceTree = "<group>"; };
+		DB9561CA0524893F008414D5 /* omap.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = omap.icns; sourceTree = "<group>"; };
+		DB9561CD0524893F008414D5 /* impdefs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = impdefs.h; sourceTree = "<group>"; };
+		DB9561CE0524893F008414D5 /* impsys.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = impsys.h; sourceTree = "<group>"; };
+		DB9561CF0524893F008414D5 /* imp.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = imp.c; sourceTree = "<group>"; };
+		DB9561D00524893F008414D5 /* imp2.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = imp2.c; sourceTree = "<group>"; };
+		DB9561D10524893F008414D5 /* comdecx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = comdecx.c; sourceTree = "<group>"; };
+		DB9561D20524893F008414D5 /* custom.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = custom.c; sourceTree = "<group>"; };
+		DB9561D30524893F008414D5 /* impdisx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = impdisx.c; sourceTree = "<group>"; };
+		DB9561D40524893F008414D5 /* impdrx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = impdrx.c; sourceTree = "<group>"; };
+		DB9561D50524893F008414D5 /* redefs.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = redefs.c; sourceTree = "<group>"; };
+		DB9561D60524893F008414D5 /* omadialogsx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = omadialogsx.c; sourceTree = "<group>"; };
+		DB9561D70524893F008414D5 /* domenux.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = domenux.c; sourceTree = "<group>"; };
+		DB9561D80524893F008414D5 /* menucommandsx.c */ = {isa = PBXFileReference; fileEncoding = 30; indentWidth = 4; lastKnownFileType = sourcecode.c.c; path = menucommandsx.c; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
+		DB9561D90524893F008414D5 /* plotchansx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = plotchansx.c; sourceTree = "<group>"; };
+		DB9561DA0524893F008414D5 /* plotonex.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = plotonex.c; sourceTree = "<group>"; };
+		DB9561DB0524893F008414D5 /* dofft.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = dofft.c; sourceTree = "<group>"; };
+		DB9561DC0524893F008414D5 /* fft.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = fft.c; sourceTree = "<group>"; };
+		DB9561DD0524893F008414D5 /* fft2.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = fft2.c; sourceTree = "<group>"; };
+		DB9561DE0524893F008414D5 /* pivgraph.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = pivgraph.c; sourceTree = "<group>"; };
+		DB9561DF0524893F008414D5 /* surfacex.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = surfacex.c; sourceTree = "<group>"; };
+		DB9561E00524893F008414D5 /* linegraphicsx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = linegraphicsx.c; sourceTree = "<group>"; };
+		DB9561E10524893F008414D5 /* lineoutx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = lineoutx.c; sourceTree = "<group>"; };
+		DB9561E20524893F008414D5 /* ljackmacx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ljackmacx.c; sourceTree = "<group>"; };
+		DB9561E30524893F008414D5 /* ljackmacx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ljackmacx.h; sourceTree = "<group>"; };
+		DB95620805248940008414D5 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		DB95620A05248940008414D5 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		DB95623605248CCF008414D5 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		DB95623805248CEE008414D5 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		DB9C09C61222039400454EA5 /* libImagelib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libImagelib.a; sourceTree = "<group>"; };
+		DB9C09C71222039400454EA5 /* libPvAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPvAPI.a; sourceTree = "<group>"; };
+		DB9C09C81222039400454EA5 /* libPvAPI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPvAPI.dylib; sourceTree = "<group>"; };
+		DB9C09CE122203BD00454EA5 /* gige.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gige.c; sourceTree = "<group>"; };
+		DB9C09CF122203BD00454EA5 /* ImageLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLib.h; sourceTree = "<group>"; };
+		DB9C09D0122203BD00454EA5 /* PvApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PvApi.h; sourceTree = "<group>"; };
+		DBA72EE010A1BFF400D3A722 /* oma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA759AE0529EE2A008414D5 /* impMach-O-cam-GigE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "impMach-O-cam-GigE.h"; sourceTree = "<group>"; };
+		DBA9D06209F541E40089451B /* pdf_copy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdf_copy.c; sourceTree = "<group>"; };
+		DBAAE5470CD7AE65008DA83A /* liblabjackusb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = liblabjackusb.dylib; sourceTree = "<group>"; };
+		DBADE31D0EE9A20900506316 /* gphoto-stuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "gphoto-stuff.c"; sourceTree = "<group>"; };
+		DBAFD21A0A46DAA400276739 /* custom.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = custom.h; sourceTree = "<group>"; };
+		DBB3E2B2057CD13900339A65 /* SensiCam.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensiCam.framework; path = /Library/Frameworks/SensiCam.framework; sourceTree = "<absolute>"; };
+		DBBBB7310590B1E000D05292 /* OMA palette2.pa1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OMA palette2.pa1"; sourceTree = "<group>"; };
+		DBBBB7380590B41900D05292 /* OMA palette.pa1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OMA palette.pa1"; sourceTree = "<group>"; };
+		DBBBB7390590B41900D05292 /* OMA palette3.pa1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OMA palette3.pa1"; sourceTree = "<group>"; };
+		DBC1312B14B9FC66002416FB /* labjackusb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = labjackusb.h; sourceTree = "<group>"; };
+		DBC7923F1264FCFC00A54C12 /* nidaqmxbase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nidaqmxbase.framework; path = /Library/Frameworks/nidaqmxbase.framework; sourceTree = "<absolute>"; };
+		DBC792541265010600A54C12 /* nidaqmxbaselv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nidaqmxbaselv.framework; path = /Library/Frameworks/nidaqmxbaselv.framework; sourceTree = "<absolute>"; };
+		DBC931EE1221D1AB00D3C74B /* oma-cam-GigE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oma-cam-GigE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCC69BC05485DCB008414D5 /* gpib-CFM.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "gpib-CFM.c"; sourceTree = "<group>"; };
+		DBCC69BD05485DCB008414D5 /* gpib.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = gpib.c; sourceTree = "<group>"; };
+		DBCC69C005485EE0008414D5 /* NI488.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NI488.framework; path = /Library/Frameworks/NI488.framework; sourceTree = "<absolute>"; };
+		DBCC69CF054861AB008414D5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		DBD2933D0768A6FC00AC4B02 /* jpeg-io.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "jpeg-io.c"; sourceTree = "<group>"; };
+		DBD432E3176B2CC200007F62 /* hdrloaderC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdrloaderC.h; sourceTree = "<group>"; };
+		DBD432E6176B2FDF00007F62 /* hdrloader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hdrloader.c; sourceTree = "<group>"; };
+		DBD72F720A46BF3E003D9C5D /* SDK.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDK.h; sourceTree = "<group>"; };
+		DBDC6899058BC74B00FF1F69 /* OMA settings */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OMA settings"; sourceTree = "<group>"; };
+		DBDD09CB0EE9C3F500ED6C36 /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
+		DBDD09CC0EE9C3F500ED6C36 /* context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = context.c; sourceTree = "<group>"; };
+		DBE10A850A4840F900846668 /* impMach-O.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "impMach-O.h"; sourceTree = "<group>"; };
+		DBE783470B32F5E0001329A0 /* VISA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VISA.framework; path = /Library/Frameworks/VISA.framework; sourceTree = "<absolute>"; };
+		DBF0A90E05358A98008414D5 /* SensiCamInterface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SensiCamInterface.h; sourceTree = "<group>"; };
+		DBFB15180D600FAF000C75F8 /* oma_help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = oma_help; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4AD25E10A1E71B0011B48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AD25F10A1E71B0011B48B /* Carbon.framework in Frameworks */,
+				DB4AD26010A1E71B0011B48B /* IOKit.framework in Frameworks */,
+				DB4AD26110A1E71B0011B48B /* ApplicationServices.framework in Frameworks */,
+				DB4AD26210A1E71B0011B48B /* CoreServices.framework in Frameworks */,
+				DB4AD26310A1E71B0011B48B /* LibTiff_F.framework in Frameworks */,
+				DB4AD26410A1E71B0011B48B /* CoreFoundation.framework in Frameworks */,
+				DB4AD26510A1E71B0011B48B /* libjpeg.a in Frameworks */,
+				DB4AD26610A1E71B0011B48B /* VISA.framework in Frameworks */,
+				DB4AD26710A1E71B0011B48B /* liblabjackusb.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8FBAE60860FC4500071007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8FBAE70860FC4500071007 /* Carbon.framework in Frameworks */,
+				DB8FBAE80860FC4500071007 /* IOKit.framework in Frameworks */,
+				DB8FBAE90860FC4500071007 /* ApplicationServices.framework in Frameworks */,
+				DB8FBAEA0860FC4500071007 /* CoreServices.framework in Frameworks */,
+				DB8FBAEB0860FC4500071007 /* LibTiff_F.framework in Frameworks */,
+				DB8FBAED0860FC4500071007 /* CoreFoundation.framework in Frameworks */,
+				DB8FBB3C0860FF4A00071007 /* libjpeg.a in Frameworks */,
+				DBAAE54A0CD7AE65008DA83A /* liblabjackusb.dylib in Frameworks */,
+				DBF10DC7159263F5003DCC7B /* VISA.framework in Frameworks */,
+				DBF10DC81592692A003DCC7B /* NI488.framework in Frameworks */,
+				DB0ECF1415BDC27B0090B60F /* SBIGUDrv.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA72ECF10A1BFF400D3A722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA72ED010A1BFF400D3A722 /* Carbon.framework in Frameworks */,
+				DBA72ED110A1BFF400D3A722 /* IOKit.framework in Frameworks */,
+				DBA72ED210A1BFF400D3A722 /* ApplicationServices.framework in Frameworks */,
+				DBA72ED310A1BFF400D3A722 /* CoreServices.framework in Frameworks */,
+				DBA72ED410A1BFF400D3A722 /* LibTiff_F.framework in Frameworks */,
+				DBA72ED510A1BFF400D3A722 /* libjpeg.a in Frameworks */,
+				DBA72ED610A1BFF400D3A722 /* CoreFoundation.framework in Frameworks */,
+				DBA72ED710A1BFF400D3A722 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC931DA1221D1AB00D3C74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC931DB1221D1AB00D3C74B /* Carbon.framework in Frameworks */,
+				DBC931DC1221D1AB00D3C74B /* IOKit.framework in Frameworks */,
+				DBC931DD1221D1AB00D3C74B /* ApplicationServices.framework in Frameworks */,
+				DBC931DE1221D1AB00D3C74B /* CoreServices.framework in Frameworks */,
+				DBC931DF1221D1AB00D3C74B /* LibTiff_F.framework in Frameworks */,
+				DBC931E01221D1AB00D3C74B /* CoreFoundation.framework in Frameworks */,
+				DBC931E11221D1AB00D3C74B /* libjpeg.a in Frameworks */,
+				DB9C09C91222039400454EA5 /* libImagelib.a in Frameworks */,
+				DB9C09CA1222039400454EA5 /* libPvAPI.a in Frameworks */,
+				DB9C09CB1222039400454EA5 /* libPvAPI.dylib in Frameworks */,
+				DBDE993614BC927E00351163 /* liblabjackusb.dylib in Frameworks */,
+				DB0ECF1515BDC27B0090B60F /* SBIGUDrv.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9561B80524893F008414D5 = {
+			isa = PBXGroup;
+			children = (
+				DB9561C60524893F008414D5 /* Resources */,
+				DB9561CC0524893F008414D5 /* Sources */,
+				DB9561E40524893F008414D5 /* Libraries */,
+				DB95620705248940008414D5 /* Frameworks */,
+				DB9561C30524893F008414D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9561C30524893F008414D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB8FBAF80860FC4500071007 /* oma-cam.app */,
+				DBA72EE010A1BFF400D3A722 /* oma.app */,
+				DB4AD27210A1E71B0011B48B /* oma-cam.app */,
+				DBC931EE1221D1AB00D3C74B /* oma-cam-GigE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9561C60524893F008414D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB31052F147E87790059D584 /* oma.xib */,
+				DBFB15180D600FAF000C75F8 /* oma_help */,
+				DB9561C70524893F008414D5 /* main.rsrc */,
+				DB9561C80524893F008414D5 /* oma-icns.icns */,
+				DB9561C90524893F008414D5 /* omad.icns */,
+				DB9561CA0524893F008414D5 /* omap.icns */,
+				DBDC6899058BC74B00FF1F69 /* OMA settings */,
+				DB1D2898058FE96A00498B68 /* oma help.txt */,
+				DBBBB7380590B41900D05292 /* OMA palette.pa1 */,
+				DBBBB7310590B1E000D05292 /* OMA palette2.pa1 */,
+				DBBBB7390590B41900D05292 /* OMA palette3.pa1 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DB9561CC0524893F008414D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DBE1C934151DC897007E670E /* verson header files */,
+				DBE1C935151DC8CF007E670E /* camrea related */,
+				DBE1C936151DC95B007E670E /* other hardware */,
+				DBE1C937151DC9A9007E670E /* SDK related */,
+				DBE1C938151DC9E8007E670E /* UI independent */,
+				DBE1C939151DCA81007E670E /* UI */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		DB9561E40524893F008414D5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DB9C09C61222039400454EA5 /* libImagelib.a */,
+				DB9C09C71222039400454EA5 /* libPvAPI.a */,
+				DB9C09C81222039400454EA5 /* libPvAPI.dylib */,
+				DBAAE5470CD7AE65008DA83A /* liblabjackusb.dylib */,
+				DB8FBB3A0860FF4A00071007 /* libjpeg.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		DB95620705248940008414D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB0ECF1315BDC27A0090B60F /* SBIGUDrv.framework */,
+				DBC7923F1264FCFC00A54C12 /* nidaqmxbase.framework */,
+				DBC792541265010600A54C12 /* nidaqmxbaselv.framework */,
+				DBE783470B32F5E0001329A0 /* VISA.framework */,
+				DB8DC22209C899C3009B983F /* QuartzCore.framework */,
+				DB95620805248940008414D5 /* Carbon.framework */,
+				DB95620A05248940008414D5 /* IOKit.framework */,
+				DB95623605248CCF008414D5 /* ApplicationServices.framework */,
+				DB95623805248CEE008414D5 /* CoreServices.framework */,
+				DBCC69CF054861AB008414D5 /* CoreFoundation.framework */,
+				DB86C553052F8638000001C2 /* LibTiff_F.framework */,
+				DB604AAC0536EDCE008414D5 /* PVCAM.framework */,
+				DBCC69C005485EE0008414D5 /* NI488.framework */,
+				DBB3E2B2057CD13900339A65 /* SensiCam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBE1C934151DC897007E670E /* verson header files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9561CE0524893F008414D5 /* impsys.h */,
+				DB1FF9B105346583008414D5 /* impMach-O-u.h */,
+				DBE10A850A4840F900846668 /* impMach-O.h */,
+				DBA759AE0529EE2A008414D5 /* impMach-O-cam-GigE.h */,
+				DB2931830E8A76C100E5FD1D /* impMach-O-cam.h */,
+			);
+			name = "verson header files";
+			sourceTree = "<group>";
+		};
+		DBE1C935151DC8CF007E670E /* camrea related */ = {
+			isa = PBXGroup;
+			children = (
+				DB9C09CE122203BD00454EA5 /* gige.c */,
+				DB9C09CF122203BD00454EA5 /* ImageLib.h */,
+				DB9C09D0122203BD00454EA5 /* PvApi.h */,
+				DBDD09CB0EE9C3F500ED6C36 /* config.c */,
+				DBDD09CC0EE9C3F500ED6C36 /* context.c */,
+				DBADE31D0EE9A20900506316 /* gphoto-stuff.c */,
+				DB6D52720E812F4200DCF83B /* sbig.c */,
+				DBF0A90E05358A98008414D5 /* SensiCamInterface.h */,
+				DB75BADD05345F3E008414D5 /* SensiCamx.c */,
+				DB604AAA0536ED9B008414D5 /* pvc_oma.c */,
+				DB604AAE0536FA07008414D5 /* cam_func.c */,
+				DBCC69BC05485DCB008414D5 /* gpib-CFM.c */,
+				DBCC69BD05485DCB008414D5 /* gpib.c */,
+			);
+			name = "camrea related";
+			sourceTree = "<group>";
+		};
+		DBE1C936151DC95B007E670E /* other hardware */ = {
+			isa = PBXGroup;
+			children = (
+				DB9561E30524893F008414D5 /* ljackmacx.h */,
+				DB9561E20524893F008414D5 /* ljackmacx.c */,
+				DB6C0D63052D9BAE008414D5 /* labio.c */,
+				DBC1312B14B9FC66002416FB /* labjackusb.h */,
+				DB7D21B20CD779E000B1F7CD /* u3.c */,
+				DB7D21B70CD779FA00B1F7CD /* u3.h */,
+			);
+			name = "other hardware";
+			sourceTree = "<group>";
+		};
+		DBE1C937151DC9A9007E670E /* SDK related */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B2FAC0CBFD97B00D3B891 /* Atten.c */,
+				DB4BAE080A4838090068A736 /* SDK.c */,
+				DBD72F720A46BF3E003D9C5D /* SDK.h */,
+			);
+			name = "SDK related";
+			sourceTree = "<group>";
+		};
+		DBE1C938151DC9E8007E670E /* UI independent */ = {
+			isa = PBXGroup;
+			children = (
+				DB8689DD076CDB2B00C86B81 /* dcrawx.c */,
+				DB9561CD0524893F008414D5 /* impdefs.h */,
+				DB9561CF0524893F008414D5 /* imp.c */,
+				DBD432E3176B2CC200007F62 /* hdrloaderC.h */,
+				DBD432E6176B2FDF00007F62 /* hdrloader.c */,
+				DB9561D00524893F008414D5 /* imp2.c */,
+				DB9561D10524893F008414D5 /* comdecx.c */,
+				DB9561D20524893F008414D5 /* custom.c */,
+				DBAFD21A0A46DAA400276739 /* custom.h */,
+				DB9561DB0524893F008414D5 /* dofft.c */,
+				DB9561DC0524893F008414D5 /* fft.c */,
+				DB9561DD0524893F008414D5 /* fft2.c */,
+				DBD2933D0768A6FC00AC4B02 /* jpeg-io.c */,
+			);
+			name = "UI independent";
+			sourceTree = "<group>";
+		};
+		DBE1C939151DCA81007E670E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DB7970EF09D4AAA900D1E2C4 /* plonchansq.c */,
+				DBA9D06209F541E40089451B /* pdf_copy.c */,
+				DB5840A509D712F000E0D55F /* oma_quartz.h */,
+				DB53B9E00566F82100127419 /* omadialogsx.h */,
+				DB9561D30524893F008414D5 /* impdisx.c */,
+				DB93822F09CCBD9300001D0F /* impdisq.c */,
+				DB9561D40524893F008414D5 /* impdrx.c */,
+				DB9561D50524893F008414D5 /* redefs.c */,
+				DB9561D60524893F008414D5 /* omadialogsx.c */,
+				DB9561D70524893F008414D5 /* domenux.c */,
+				DB9561D80524893F008414D5 /* menucommandsx.c */,
+				DB9561D90524893F008414D5 /* plotchansx.c */,
+				DB9561DA0524893F008414D5 /* plotonex.c */,
+				DB9561DE0524893F008414D5 /* pivgraph.c */,
+				DB9561DF0524893F008414D5 /* surfacex.c */,
+				DB9561E00524893F008414D5 /* linegraphicsx.c */,
+				DB9561E10524893F008414D5 /* lineoutx.c */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB4AD22510A1E71B0011B48B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AD22610A1E71B0011B48B /* impdefs.h in Headers */,
+				DB4AD22710A1E71B0011B48B /* impsys.h in Headers */,
+				DB4AD22810A1E71B0011B48B /* ljackmacx.h in Headers */,
+				DB4AD22910A1E71B0011B48B /* impMach-O-cam-GigE.h in Headers */,
+				DB4AD22A10A1E71B0011B48B /* omadialogsx.h in Headers */,
+				DB4AD22B10A1E71B0011B48B /* oma_quartz.h in Headers */,
+				DB4AD22C10A1E71B0011B48B /* SDK.h in Headers */,
+				DB4AD22D10A1E71B0011B48B /* custom.h in Headers */,
+				DB4AD22E10A1E71B0011B48B /* u3.h in Headers */,
+				DBD432EC176B441C00007F62 /* hdrloaderC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8FBABC0860FC4500071007 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8FBABD0860FC4500071007 /* impdefs.h in Headers */,
+				DB8FBABE0860FC4500071007 /* impsys.h in Headers */,
+				DB8FBABF0860FC4500071007 /* ljackmacx.h in Headers */,
+				DB8FBAC10860FC4500071007 /* omadialogsx.h in Headers */,
+				DB5840A809D712F000E0D55F /* oma_quartz.h in Headers */,
+				DBD72F740A46BF3E003D9C5D /* SDK.h in Headers */,
+				DBAFD21C0A46DAA400276739 /* custom.h in Headers */,
+				DB7D21BA0CD779FA00B1F7CD /* u3.h in Headers */,
+				DB2931840E8A76C100E5FD1D /* impMach-O-cam.h in Headers */,
+				DBD432E5176B2CC200007F62 /* hdrloaderC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA72E9B10A1BFF400D3A722 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA72E9C10A1BFF400D3A722 /* impdefs.h in Headers */,
+				DBA72E9D10A1BFF400D3A722 /* impsys.h in Headers */,
+				DBA72E9E10A1BFF400D3A722 /* ljackmacx.h in Headers */,
+				DBA72E9F10A1BFF400D3A722 /* impMach-O-u.h in Headers */,
+				DBA72EA010A1BFF400D3A722 /* omadialogsx.h in Headers */,
+				DBA72EA110A1BFF400D3A722 /* oma_quartz.h in Headers */,
+				DBA72EA210A1BFF400D3A722 /* SDK.h in Headers */,
+				DBA72EA310A1BFF400D3A722 /* custom.h in Headers */,
+				DBD432EB176B441B00007F62 /* hdrloaderC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC931A21221D1AB00D3C74B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC931A31221D1AB00D3C74B /* impdefs.h in Headers */,
+				DBC931A41221D1AB00D3C74B /* impsys.h in Headers */,
+				DBC931A51221D1AB00D3C74B /* ljackmacx.h in Headers */,
+				DBC931A61221D1AB00D3C74B /* impMach-O-cam-GigE.h in Headers */,
+				DBC931A71221D1AB00D3C74B /* omadialogsx.h in Headers */,
+				DBC931A81221D1AB00D3C74B /* oma_quartz.h in Headers */,
+				DBC931A91221D1AB00D3C74B /* SDK.h in Headers */,
+				DBC931AA1221D1AB00D3C74B /* custom.h in Headers */,
+				DBC931AB1221D1AB00D3C74B /* u3.h in Headers */,
+				DB9C09D3122203BD00454EA5 /* ImageLib.h in Headers */,
+				DB9C09D4122203BD00454EA5 /* PvApi.h in Headers */,
+				DBC1312C14B9FC66002416FB /* labjackusb.h in Headers */,
+				DBD432ED176B441C00007F62 /* hdrloaderC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB4AD22410A1E71B0011B48B /* oma-cam-visa 10.5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4AD26E10A1E71B0011B48B /* Build configuration list for PBXNativeTarget "oma-cam-visa 10.5" */;
+			buildPhases = (
+				DB4AD22510A1E71B0011B48B /* Headers */,
+				DB4AD22F10A1E71B0011B48B /* Resources */,
+				DB4AD23B10A1E71B0011B48B /* Sources */,
+				DB4AD25E10A1E71B0011B48B /* Frameworks */,
+				DB4AD26A10A1E71B0011B48B /* Rez */,
+				DB4AD26C10A1E71B0011B48B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oma-cam-visa 10.5";
+			productName = moma;
+			productReference = DB4AD27210A1E71B0011B48B /* oma-cam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB8FBABB0860FC4500071007 /* oma-cam 10.6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8FBAF30860FC4500071007 /* Build configuration list for PBXNativeTarget "oma-cam 10.6" */;
+			buildPhases = (
+				DB8FBABC0860FC4500071007 /* Headers */,
+				DB8FBAC20860FC4500071007 /* Resources */,
+				DB8FBACC0860FC4500071007 /* Sources */,
+				DB8FBAE60860FC4500071007 /* Frameworks */,
+				DB8FBAEF0860FC4500071007 /* Rez */,
+				DB8FBAF10860FC4500071007 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oma-cam 10.6";
+			productName = moma;
+			productReference = DB8FBAF80860FC4500071007 /* oma-cam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBA72E9A10A1BFF400D3A722 /* oma 10.6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA72EDC10A1BFF400D3A722 /* Build configuration list for PBXNativeTarget "oma 10.6" */;
+			buildPhases = (
+				DBA72ED810A1BFF400D3A722 /* Rez */,
+				DBA72E9B10A1BFF400D3A722 /* Headers */,
+				DBA72EA410A1BFF400D3A722 /* Resources */,
+				DBA72EB110A1BFF400D3A722 /* Sources */,
+				DBA72ECF10A1BFF400D3A722 /* Frameworks */,
+				DBA72EDA10A1BFF400D3A722 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oma 10.6";
+			productName = moma;
+			productReference = DBA72EE010A1BFF400D3A722 /* oma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC931A11221D1AB00D3C74B /* oma-cam-GigE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC931EA1221D1AB00D3C74B /* Build configuration list for PBXNativeTarget "oma-cam-GigE" */;
+			buildPhases = (
+				DBC931A21221D1AB00D3C74B /* Headers */,
+				DBC931AC1221D1AB00D3C74B /* Resources */,
+				DBC931B71221D1AB00D3C74B /* Sources */,
+				DBC931DA1221D1AB00D3C74B /* Frameworks */,
+				DBC931E61221D1AB00D3C74B /* Rez */,
+				DBC931E81221D1AB00D3C74B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oma-cam-GigE";
+			productName = moma;
+			productReference = DBC931EE1221D1AB00D3C74B /* oma-cam-GigE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB95620C05248940008414D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+			};
+			buildConfigurationList = DB965E94085741DB001B5720 /* Build configuration list for PBXProject "oma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = DB9561B80524893F008414D5;
+			productRefGroup = DB9561C30524893F008414D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB8FBABB0860FC4500071007 /* oma-cam 10.6 */,
+				DBA72E9A10A1BFF400D3A722 /* oma 10.6 */,
+				DB4AD22410A1E71B0011B48B /* oma-cam-visa 10.5 */,
+				DBC931A11221D1AB00D3C74B /* oma-cam-GigE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4AD22F10A1E71B0011B48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AD23010A1E71B0011B48B /* oma-icns.icns in Resources */,
+				DB4AD23110A1E71B0011B48B /* omad.icns in Resources */,
+				DB4AD23210A1E71B0011B48B /* omap.icns in Resources */,
+				DB4AD23410A1E71B0011B48B /* OMA settings in Resources */,
+				DB4AD23510A1E71B0011B48B /* oma help.txt in Resources */,
+				DB4AD23610A1E71B0011B48B /* OMA palette2.pa1 in Resources */,
+				DB4AD23710A1E71B0011B48B /* OMA palette.pa1 in Resources */,
+				DB4AD23810A1E71B0011B48B /* OMA palette3.pa1 in Resources */,
+				DB4AD23A10A1E71B0011B48B /* oma_help in Resources */,
+				DB310534147E87790059D584 /* oma.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8FBAC20860FC4500071007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8FBAC30860FC4500071007 /* oma-icns.icns in Resources */,
+				DB8FBAC40860FC4500071007 /* omad.icns in Resources */,
+				DB8FBAC50860FC4500071007 /* omap.icns in Resources */,
+				DB8FBAC70860FC4500071007 /* OMA settings in Resources */,
+				DB8FBAC80860FC4500071007 /* oma help.txt in Resources */,
+				DB8FBAC90860FC4500071007 /* OMA palette2.pa1 in Resources */,
+				DB8FBACA0860FC4500071007 /* OMA palette.pa1 in Resources */,
+				DB8FBACB0860FC4500071007 /* OMA palette3.pa1 in Resources */,
+				DBFB159C0D600FAF000C75F8 /* oma_help in Resources */,
+				DB310530147E87790059D584 /* oma.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA72EA410A1BFF400D3A722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA72EA510A1BFF400D3A722 /* oma-icns.icns in Resources */,
+				DBA72EA610A1BFF400D3A722 /* omad.icns in Resources */,
+				DBA72EA710A1BFF400D3A722 /* omap.icns in Resources */,
+				DBA72EA910A1BFF400D3A722 /* OMA settings in Resources */,
+				DBA72EAA10A1BFF400D3A722 /* oma help.txt in Resources */,
+				DBA72EAB10A1BFF400D3A722 /* OMA palette2.pa1 in Resources */,
+				DBA72EAC10A1BFF400D3A722 /* OMA palette.pa1 in Resources */,
+				DBA72EAD10A1BFF400D3A722 /* OMA palette3.pa1 in Resources */,
+				DBA72EB010A1BFF400D3A722 /* oma_help in Resources */,
+				DB310533147E87790059D584 /* oma.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC931AC1221D1AB00D3C74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC931AD1221D1AB00D3C74B /* oma-icns.icns in Resources */,
+				DBC931AE1221D1AB00D3C74B /* omad.icns in Resources */,
+				DBC931AF1221D1AB00D3C74B /* omap.icns in Resources */,
+				DBC931B11221D1AB00D3C74B /* OMA settings in Resources */,
+				DBC931B21221D1AB00D3C74B /* oma help.txt in Resources */,
+				DBC931B31221D1AB00D3C74B /* OMA palette2.pa1 in Resources */,
+				DBC931B41221D1AB00D3C74B /* OMA palette.pa1 in Resources */,
+				DBC931B51221D1AB00D3C74B /* OMA palette3.pa1 in Resources */,
+				DBC931B61221D1AB00D3C74B /* oma_help in Resources */,
+				DB310536147E87790059D584 /* oma.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		DB4AD26A10A1E71B0011B48B /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AD26B10A1E71B0011B48B /* main.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8FBAEF0860FC4500071007 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5495B2147AE3BF003E3ECC /* main.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA72ED810A1BFF400D3A722 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA72ED910A1BFF400D3A722 /* main.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC931E61221D1AB00D3C74B /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC931E71221D1AB00D3C74B /* main.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4AD23B10A1E71B0011B48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AD23C10A1E71B0011B48B /* imp.c in Sources */,
+				DB4AD23D10A1E71B0011B48B /* imp2.c in Sources */,
+				DB4AD23E10A1E71B0011B48B /* comdecx.c in Sources */,
+				DB4AD23F10A1E71B0011B48B /* custom.c in Sources */,
+				DB4AD24010A1E71B0011B48B /* impdisx.c in Sources */,
+				DB4AD24110A1E71B0011B48B /* impdrx.c in Sources */,
+				DB4AD24210A1E71B0011B48B /* redefs.c in Sources */,
+				DB4AD24310A1E71B0011B48B /* omadialogsx.c in Sources */,
+				DB4AD24410A1E71B0011B48B /* domenux.c in Sources */,
+				DB4AD24610A1E71B0011B48B /* plotchansx.c in Sources */,
+				DB4AD24710A1E71B0011B48B /* plotonex.c in Sources */,
+				DB4AD24810A1E71B0011B48B /* dofft.c in Sources */,
+				DB4AD24910A1E71B0011B48B /* fft.c in Sources */,
+				DB4AD24A10A1E71B0011B48B /* fft2.c in Sources */,
+				DB4AD24B10A1E71B0011B48B /* pivgraph.c in Sources */,
+				DB4AD24C10A1E71B0011B48B /* surfacex.c in Sources */,
+				DB4AD24D10A1E71B0011B48B /* linegraphicsx.c in Sources */,
+				DB4AD24E10A1E71B0011B48B /* lineoutx.c in Sources */,
+				DB4AD24F10A1E71B0011B48B /* ljackmacx.c in Sources */,
+				DB4AD25010A1E71B0011B48B /* labio.c in Sources */,
+				DB4AD25110A1E71B0011B48B /* gpib.c in Sources */,
+				DB4AD25210A1E71B0011B48B /* jpeg-io.c in Sources */,
+				DB4AD25310A1E71B0011B48B /* dcrawx.c in Sources */,
+				DB4AD25410A1E71B0011B48B /* impdisq.c in Sources */,
+				DB4AD25510A1E71B0011B48B /* plonchansq.c in Sources */,
+				DB4AD25610A1E71B0011B48B /* pdf_copy.c in Sources */,
+				DB4AD25710A1E71B0011B48B /* SDK.c in Sources */,
+				DB4AD25810A1E71B0011B48B /* Atten.c in Sources */,
+				DB4AD25910A1E71B0011B48B /* u3.c in Sources */,
+				DB4AD25A10A1E71B0011B48B /* sbig.c in Sources */,
+				DB4AD25B10A1E71B0011B48B /* gphoto-stuff.c in Sources */,
+				DB4AD25C10A1E71B0011B48B /* config.c in Sources */,
+				DB4AD25D10A1E71B0011B48B /* context.c in Sources */,
+				DBD432E9176B2FDF00007F62 /* hdrloader.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8FBACC0860FC4500071007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8FBACD0860FC4500071007 /* imp.c in Sources */,
+				DB8FBACE0860FC4500071007 /* imp2.c in Sources */,
+				DB8FBACF0860FC4500071007 /* comdecx.c in Sources */,
+				DB8FBAD00860FC4500071007 /* custom.c in Sources */,
+				DB8FBAD10860FC4500071007 /* impdisx.c in Sources */,
+				DB8FBAD20860FC4500071007 /* impdrx.c in Sources */,
+				DB8FBAD30860FC4500071007 /* redefs.c in Sources */,
+				DB8FBAD40860FC4500071007 /* omadialogsx.c in Sources */,
+				DB8FBAD50860FC4500071007 /* domenux.c in Sources */,
+				DB8FBAD70860FC4500071007 /* plotchansx.c in Sources */,
+				DB8FBAD80860FC4500071007 /* plotonex.c in Sources */,
+				DB8FBAD90860FC4500071007 /* dofft.c in Sources */,
+				DB8FBADA0860FC4500071007 /* fft.c in Sources */,
+				DB8FBADB0860FC4500071007 /* fft2.c in Sources */,
+				DB8FBADC0860FC4500071007 /* pivgraph.c in Sources */,
+				DB8FBADD0860FC4500071007 /* surfacex.c in Sources */,
+				DB8FBADE0860FC4500071007 /* linegraphicsx.c in Sources */,
+				DB8FBADF0860FC4500071007 /* lineoutx.c in Sources */,
+				DB8FBAE00860FC4500071007 /* ljackmacx.c in Sources */,
+				DB8FBAE10860FC4500071007 /* labio.c in Sources */,
+				DB8FBAE20860FC4500071007 /* gpib-CFM.c in Sources */,
+				DB8FBAE30860FC4500071007 /* gpib.c in Sources */,
+				DB8FBAE40860FC4500071007 /* jpeg-io.c in Sources */,
+				DB8FBAE50860FC4500071007 /* dcrawx.c in Sources */,
+				DB93823209CCBD9300001D0F /* impdisq.c in Sources */,
+				DB7970F209D4AAAA00D1E2C4 /* plonchansq.c in Sources */,
+				DBA9D06409F541E40089451B /* pdf_copy.c in Sources */,
+				DB4BAE0B0A4838090068A736 /* SDK.c in Sources */,
+				DB3B2FAF0CBFD97B00D3B891 /* Atten.c in Sources */,
+				DB7D21B50CD779E000B1F7CD /* u3.c in Sources */,
+				DB6D52740E812F4200DCF83B /* sbig.c in Sources */,
+				DBADE31E0EE9A20900506316 /* gphoto-stuff.c in Sources */,
+				DBDD09CD0EE9C3F500ED6C36 /* config.c in Sources */,
+				DBDD09CE0EE9C3F500ED6C36 /* context.c in Sources */,
+				DBD432E7176B2FDF00007F62 /* hdrloader.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA72EB110A1BFF400D3A722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA72EB210A1BFF400D3A722 /* imp.c in Sources */,
+				DBA72EB310A1BFF400D3A722 /* imp2.c in Sources */,
+				DBA72EB410A1BFF400D3A722 /* comdecx.c in Sources */,
+				DBA72EB510A1BFF400D3A722 /* impdisx.c in Sources */,
+				DBA72EB610A1BFF400D3A722 /* impdrx.c in Sources */,
+				DBA72EB710A1BFF400D3A722 /* redefs.c in Sources */,
+				DBA72EB810A1BFF400D3A722 /* domenux.c in Sources */,
+				DBA72EB910A1BFF400D3A722 /* menucommandsx.c in Sources */,
+				DBA72EBA10A1BFF400D3A722 /* plotchansx.c in Sources */,
+				DBA72EBB10A1BFF400D3A722 /* plotonex.c in Sources */,
+				DBA72EBC10A1BFF400D3A722 /* dofft.c in Sources */,
+				DBA72EBD10A1BFF400D3A722 /* fft.c in Sources */,
+				DBA72EBE10A1BFF400D3A722 /* fft2.c in Sources */,
+				DBA72EBF10A1BFF400D3A722 /* pivgraph.c in Sources */,
+				DBA72EC010A1BFF400D3A722 /* surfacex.c in Sources */,
+				DBA72EC110A1BFF400D3A722 /* linegraphicsx.c in Sources */,
+				DBA72EC210A1BFF400D3A722 /* lineoutx.c in Sources */,
+				DBA72EC310A1BFF400D3A722 /* ljackmacx.c in Sources */,
+				DBA72EC410A1BFF400D3A722 /* labio.c in Sources */,
+				DBA72EC510A1BFF400D3A722 /* omadialogsx.c in Sources */,
+				DBA72EC610A1BFF400D3A722 /* custom.c in Sources */,
+				DBA72EC710A1BFF400D3A722 /* jpeg-io.c in Sources */,
+				DBA72EC810A1BFF400D3A722 /* dcrawx.c in Sources */,
+				DBA72EC910A1BFF400D3A722 /* impdisq.c in Sources */,
+				DBA72ECA10A1BFF400D3A722 /* plonchansq.c in Sources */,
+				DBA72ECB10A1BFF400D3A722 /* pdf_copy.c in Sources */,
+				DBA72ECC10A1BFF400D3A722 /* SDK.c in Sources */,
+				DBA72ECD10A1BFF400D3A722 /* Atten.c in Sources */,
+				DBA72ECE10A1BFF400D3A722 /* sbig.c in Sources */,
+				DBD432E8176B2FDF00007F62 /* hdrloader.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC931B71221D1AB00D3C74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC931B81221D1AB00D3C74B /* imp.c in Sources */,
+				DBC931B91221D1AB00D3C74B /* imp2.c in Sources */,
+				DBC931BA1221D1AB00D3C74B /* comdecx.c in Sources */,
+				DBC931BB1221D1AB00D3C74B /* custom.c in Sources */,
+				DBC931BC1221D1AB00D3C74B /* impdisx.c in Sources */,
+				DBC931BD1221D1AB00D3C74B /* impdrx.c in Sources */,
+				DBC931BE1221D1AB00D3C74B /* redefs.c in Sources */,
+				DBC931BF1221D1AB00D3C74B /* omadialogsx.c in Sources */,
+				DBC931C01221D1AB00D3C74B /* domenux.c in Sources */,
+				DBC931C21221D1AB00D3C74B /* plotchansx.c in Sources */,
+				DBC931C31221D1AB00D3C74B /* plotonex.c in Sources */,
+				DBC931C41221D1AB00D3C74B /* dofft.c in Sources */,
+				DBC931C51221D1AB00D3C74B /* fft.c in Sources */,
+				DBC931C61221D1AB00D3C74B /* fft2.c in Sources */,
+				DBC931C71221D1AB00D3C74B /* pivgraph.c in Sources */,
+				DBC931C81221D1AB00D3C74B /* surfacex.c in Sources */,
+				DBC931C91221D1AB00D3C74B /* linegraphicsx.c in Sources */,
+				DBC931CA1221D1AB00D3C74B /* lineoutx.c in Sources */,
+				DBC931CB1221D1AB00D3C74B /* ljackmacx.c in Sources */,
+				DBC931CC1221D1AB00D3C74B /* labio.c in Sources */,
+				DBC931CE1221D1AB00D3C74B /* jpeg-io.c in Sources */,
+				DBC931CF1221D1AB00D3C74B /* dcrawx.c in Sources */,
+				DBC931D01221D1AB00D3C74B /* impdisq.c in Sources */,
+				DBC931D11221D1AB00D3C74B /* plonchansq.c in Sources */,
+				DBC931D21221D1AB00D3C74B /* pdf_copy.c in Sources */,
+				DBC931D31221D1AB00D3C74B /* SDK.c in Sources */,
+				DBC931D41221D1AB00D3C74B /* Atten.c in Sources */,
+				DBC931D51221D1AB00D3C74B /* u3.c in Sources */,
+				DBC931D61221D1AB00D3C74B /* sbig.c in Sources */,
+				DBC931D71221D1AB00D3C74B /* gphoto-stuff.c in Sources */,
+				DBC931D81221D1AB00D3C74B /* config.c in Sources */,
+				DBC931D91221D1AB00D3C74B /* context.c in Sources */,
+				DB9C09D2122203BD00454EA5 /* gige.c in Sources */,
+				DBD432EA176B2FDF00007F62 /* hdrloader.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB4AD26F10A1E71B0011B48B /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-cam.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/NI488.framework/Versions/A/Headers\"";
+				INFOPLIST_FILE = "Info-oma_cam_visa copy.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = "oma-cam";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		DB4AD27010A1E71B0011B48B /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/usr/local/lib,
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-cam-visa.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/usr/local/include,
+					/opt/local/include,
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/VISA.framework/Versions/A/Headers\"";
+				INFOPLIST_FILE = "Info-oma_cam_visa.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/usr/local/lib,
+					/opt/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = "oma-cam";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DB4AD27110A1E71B0011B48B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					./,
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-cam.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/NI488.framework/Versions/A/Headers\"";
+				INFOPLIST_FILE = "Info-oma_cam_visa copy.plist";
+				LIBRARY_SEARCH_PATHS = (
+					./,
+					"$(SRCROOT)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = "oma-cam";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		DB8FBAF40860FC4500071007 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-cam.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/NI488.framework/Versions/A/Headers\"",
+					/opt/local/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "Info-oma_cam.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lgphoto2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = "oma-cam";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/NI488.framework/Versions/A/Headers\" /opt/local/include /usr/local/include";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		DB8FBAF50860FC4500071007 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-cam.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/opt/local/include,
+					/usr/local/include,
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/NI488.framework/Versions/A/Headers\"";
+				INFOPLIST_FILE = "Info-oma_cam.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lgphoto2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = "oma-cam";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/NI488.framework/Versions/A/Headers\" /opt/local/include /usr/local/include";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DB8FBAF60860FC4500071007 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					./,
+					"\"$(SRCROOT)\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-cam.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/NI488.framework/Versions/A/Headers\"",
+					/opt/local/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "Info-oma_cam.plist";
+				LIBRARY_SEARCH_PATHS = (
+					./,
+					"$(SRCROOT)",
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lgphoto2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = "oma-cam";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/NI488.framework/Versions/A/Headers\" /opt/local/include /usr/local/include";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		DB965E95085741DB001B5720 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		DB965E96085741DB001B5720 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		DB965E97085741DB001B5720 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+		DBA72EDD10A1BFF400D3A722 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-u.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "./Info-oma-u.plist";
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = "$(inherited) NO";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = oma;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		DBA72EDE10A1BFF400D3A722 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DYLD_LIBRARY_PATH = "$(SRCROOT)";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-u.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "./Info-oma-u.plist";
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = "$(inherited) NO";
+				KEEP_PRIVATE_EXTERNS = NO;
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(CONTENTS_FOLDER_PATH)/MacOS",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-dylib_file/usr/lib/liblabjackusb.dylib:$(SRCROOT)/liblabjackusb.dylib";
+				OTHER_REZFLAGS = "";
+				PRELINK_LIBS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = oma;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DBA72EDF10A1BFF400D3A722 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = ./;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "./Info-oma-u.plist";
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = "$(inherited) NO";
+				LIBRARY_SEARCH_PATHS = (
+					./,
+					"$(SRCROOT)/libjpeg/build/Debug",
+					"$(SRCROOT)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					./,
+					"$(SRCROOT)/libjpeg/build/Debug",
+					"$(SRCROOT)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = oma;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		DBC931EB1221D1AB00D3C74B /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/usr/local/lib,
+					/opt/local/lib,
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-cam-GigE.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/usr/local/include,
+					/opt/local/include,
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/VISA.framework/Versions/A/Headers\"";
+				INFOPLIST_FILE = "Info-oma_cam_GigE.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lgphoto2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = "oma-cam-GigE";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		DBC931EC1221D1AB00D3C74B /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/usr/local/lib,
+					/opt/local/lib,
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-cam-GigE.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/usr/local/include,
+					/opt/local/include,
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/VISA.framework/Versions/A/Headers\"";
+				INFOPLIST_FILE = "Info-oma_cam_GigE.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lgphoto2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = "oma-cam-GigE";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DBC931ED1221D1AB00D3C74B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/usr/local/lib,
+					/opt/local/lib,
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "impMach-O-cam-GigE.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/usr/local/include,
+					/opt/local/include,
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/VISA.framework/Versions/A/Headers\"";
+				INFOPLIST_FILE = "Info-oma_cam_GigE.plist\n";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lgphoto2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oma;
+				PRODUCT_NAME = "oma-cam-GigE";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4AD26E10A1E71B0011B48B /* Build configuration list for PBXNativeTarget "oma-cam-visa 10.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4AD26F10A1E71B0011B48B /* Development */,
+				DB4AD27010A1E71B0011B48B /* Deployment */,
+				DB4AD27110A1E71B0011B48B /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DB8FBAF30860FC4500071007 /* Build configuration list for PBXNativeTarget "oma-cam 10.6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8FBAF40860FC4500071007 /* Development */,
+				DB8FBAF50860FC4500071007 /* Deployment */,
+				DB8FBAF60860FC4500071007 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DB965E94085741DB001B5720 /* Build configuration list for PBXProject "oma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB965E95085741DB001B5720 /* Development */,
+				DB965E96085741DB001B5720 /* Deployment */,
+				DB965E97085741DB001B5720 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DBA72EDC10A1BFF400D3A722 /* Build configuration list for PBXNativeTarget "oma 10.6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA72EDD10A1BFF400D3A722 /* Development */,
+				DBA72EDE10A1BFF400D3A722 /* Deployment */,
+				DBA72EDF10A1BFF400D3A722 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DBC931EA1221D1AB00D3C74B /* Build configuration list for PBXNativeTarget "oma-cam-GigE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC931EB1221D1AB00D3C74B /* Development */,
+				DBC931EC1221D1AB00D3C74B /* Deployment */,
+				DBC931ED1221D1AB00D3C74B /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB95620C05248940008414D5 /* Project object */;
+}
