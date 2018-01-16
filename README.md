@@ -106,19 +106,19 @@ New Commands:
 
  	SBIG command_strings:
  
- 	EXPosure exposure_time
+ 	`EXP`osure exposure_time
 		Specify exposure_time in seconds. Does not take an image.
 
-	 FILter
+	 `FIL`ter
 		 Specify which fillter to use.
 
-	 TEMperature
+	 `TEM`perature
 		 Specify set temperature of the CCD in degrees C.
 
-	 DISconnect
+	 `DIS`connect
 		 Close the device and driver.
 
- 	STAtus 
+ 	`STA`tus 
 		 Print out CCD info, temperature, exposure, etc.
 
 	 ACQuire 
@@ -147,7 +147,7 @@ New Commands:
 	Uses gphoto2 calls to list the current value of the specified setting, along with the allowed values for resetting it.
 
 `CAMSETSETTING  name  new_setting_value`
-	Uses gphoto2 calls to reset the value of the specified setting to the new value. For a listing of valid setting values, use the GETCAMSETTING command.
+	Uses gphoto2 calls to reset the value of the specified setting to the new value. For a listing of valid setting values, use the `GETCAMSETTING` command.
 
 `CAMCLOSE`
 	Disconnects from the digital camera accessed through gphoto2.
@@ -162,13 +162,13 @@ New Commands:
  G B
  R G
  c1 - c4 should be 1 2 0 1
- Appropriate values depend on the specific camera. (See the output from the GETRGB command.)
+ Appropriate values depend on the specific camera. (See the output from the `GETRGB` command.)
 
 New features for command interpretation:
 
-%p	Filled in with the "save data" prefix
+`%p`	Filled in with the "save data" prefix
 
-%q	Filled in with the "get data" prefix
+`%q`	Filled in with the "get data" prefix
 
 __Modified Commands__
 
@@ -194,16 +194,16 @@ Sum up the data in the horizontal ( direction_flag=0 ) or vertical (direction_fl
 `INTFILL direction_flag selection_flag do_average`
 	As above, but a two-dimensional image is formed by duplicating the summed (or averaged) values.
 
-New Menu Command:
+__New Menu Command:__
 	
 Plot Both (Cmnd 3)
 
 
-v 2.1.4
+### v 2.1.4
 
-What's New:
+#### What's New:
 
-CoverFlow
+__CoverFlow__
 
  
 
@@ -211,15 +211,15 @@ For Leopard (Mac OS 10.5.0 or greater) there is now a QuickLook Plugin that allo
 
 To install the QuickLook Plugin (MacOS 10.5 only), double click "Install QuickLook for OMA files."  The installer will put the plugin (a file named "omalook3.qlgenerator") in the folder /Library/Quicklook.
 
-Drag and Drop
+__Drag and Drop__
 
 Now you can drag and drop files onto any OMA window to open them. Note that dropping tiff, jpeg, or macro files onto the command window will display them there.
 
-Automatic Display
+__Automatic Display__
 
 When a data file is opened by double clicking, dragging and dropping to an oma window, or dragging onto the oma icon, the files will be opened AND displayed.
 
-New Commands
+__New Commands__
 
 `SATIFFSCALED min max <filename>`
 	Convert image to 8 bit and save as a Greyscale TIFF file. Uses the specified min and max for scaling rather than the min and max of the image in the buffer. Results will be between 0 - 255. Depending on min and max, the image may be clipped or the full 8-bit dynamic range may not be used.
@@ -243,7 +243,7 @@ New Commands
 	command_return_1 is the value.
 	
 
-Changes/Corrections to Current Functions
+__Changes/Corrections to Current Functions__
 
 Changed the way menu commands work for saving a rectangle -- allow the menu command to use the currently defined 
 rectangle rather than having to specifically draw one on the screen.  Added error checking to be sure current rectangle is valid.
