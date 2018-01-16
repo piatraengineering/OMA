@@ -1,2 +1,4 @@
 # ignore the zipped archives
 *.zip
+*.app
+.vscode/*
